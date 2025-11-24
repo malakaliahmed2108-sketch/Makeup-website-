@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SHEGLAM Highlighter Product</title>
+  <link rel="stylesheet" href="css/product.css">
+</head>
+<body>
+  <header>
+    <h1>SHEGLAM</h1>
+  </header>
+
+  <main class="product-page">
+    <div class="product-gallery">
+      <div class="product-highlighter"></div>
+      <img id="mainImage" src="images/highlighter heart.jpg" alt="SHEGLAM Radiant Glow Highlighter - Golden">
+    </div>
+
+    <div class="product-info">
+      <h2>SHEGLAM Radiant Glow Highlighter</h2>
+      <div class="rating" role="img" aria-label="5 out of 5 stars">
+        ⭐⭐⭐⭐⭐ <span>(243 reviews)</span>
+      </div>
+
+      <p class="price">
+        <span class="old-price">$12.00</span>
+        <span class="new-price">$9.99</span>
+      </p>
+
+      <p class="desc">
+        Glow like never before with our Radiant Glow Highlighter — buttery smooth, ultra-pigmented, and gives you that lit-from-within radiance! ✨
+      </p>
+
+      <div class="colors">
+        <p>Choose Shade:</p>
+        <div class="color-options" role="radiogroup" aria-label="Color selection">
+        <button class="color golden active" 
+                  data-color="golden active" 
+                  data-image="images/light 1.jpg"
+                  aria-label="golden" 
+                  role="radio" 
+                  aria-checked="true"></button>
+        <button class="color bronze" 
+                  data-color="bronze" 
+                  data-image="images/light 3.jpg"
+                  aria-label="bronze shade" 
+                  role="radio" 
+                  aria-checked="true"></button>
+        <button class="color champagne" 
+                  data-color="champagne" 
+                  data-image="images/light 2.jpg"
+                  aria-label="champagne shade" 
+                  role="radio" 
+                  aria-checked="false"></button>
+        </div>
+      </div>
+
+      <div class="quantity">
+        <p>Quantity:</p>
+        <div class="quantity-box">
+          <button id="decreaseBtn" aria-label="Decrease quantity">−</button>
+          <input type="number" id="qty" value="1" min="1" max="99" aria-label="Product quantity">
+          <button id="increaseBtn" aria-label="Increase quantity">+</button>
+        </div>
+      </div>
+
+      <div class="buttons">
+        <button class="add-to-cart" id="addToCartBtn">🛒 Add to Cart</button>
+        <button class="buy-now" id="buyNowBtn">💖 Buy Now</button>
+      </div>
+    </div>
+  </main>
+
+  <section class="reviews">
+    <h3>Customer Reviews</h3>
+    <div class="review">
+      <div class="name">Amina R.</div>
+      <div class="stars">★★★★★</div>
+      <p>This highlighter is INSANE! So pigmented and the glow is absolutely stunning ✨</p>
+    </div>
+    <div class="review">
+      <div class="name">Maya H.</div>
+      <div class="stars">★★★★★</div>
+      <p>Best highlighter I've ever used! The golden shade is perfection for my skin tone 😍</p>
+    </div>
+    <div class="review">
+      <div class="name">Zara K.</div>
+      <div class="stars">★★★★☆</div>
+      <p>Gorgeous glow! Blends like a dream. I just wish it came in a bigger size!</p>
+    </div>
+
+    <div class="more">
+      <h3>More to Love 💕</h3>
+      <div class="more-items">
+         <a href="product-gilter.html" class="more-card">
+        <img src="images/gilter heart.jpg" alt="SHEGLAM gilter">
+        <p>SHEGLAM gilter -  $11.99</p>
+        </a>
+        <a href="product-foundation.html" class="more-card">
+          <img src="images/foundation heart.jpg" alt="Sheglam Foundation">
+          <p>Sheglam Foundation - $10.99</p>
+        </a>
+        <a href="product.Eyeshadow.html" class="more-card">
+          <img src="images/eyes.jpg" alt="Sheglam Eyeshadow Palette">
+          <p>Sheglam Eyeshadow - $12.99</p>
+        </a>
+        <a href="product.eyeliner.html" class="more-card">
+          <img src="images/linear heart.jpg" alt="Sheglam eyeliner">
+          <p>Sheglam Eyeliner - $5.99</p>
+        </a>
+        <a href="product.lipstick.html" class="more-card">
+          <img src="images/lip stick heart.jpg" alt="Sheglam lipstick">
+          <p>Sheglam Lip stick - $11.00</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 SHEGLAM Beauty | All Rights Reserved</p>
+  </footer>
+
+  <script src="product.js"></script>
+</body>
+</html>

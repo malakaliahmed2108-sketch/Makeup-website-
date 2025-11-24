@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SHEGLAM Lipstick Product</title>
+  <link rel="stylesheet" href="css/product.css">
+  
+</head>
+<body>
+  <header>
+    <h1>SHEGLAM</h1>
+  </header>
+
+  <main class="product-page">
+    <div class="product-gallery">
+      <div class="product-lipstick"></div>
+      <img id="mainImage" src="images/lip stick heart.jpg" alt="SHEGLAM Velvet Matte Lipstick - Twist">
+    </div>
+
+    <div class="product-info">
+      <h2>SHEGLAM Velvet Matte Lipstick</h2>
+      <div class="rating" role="img" aria-label="5 out of 5 stars">
+        ⭐⭐⭐⭐⭐ <span>(276 reviews)</span>
+      </div>
+
+      <p class="price">
+        <span class="old-price">$15.99</span>
+        <span class="new-price">$11.00</span>
+      </p>
+
+      <p class="desc">
+        Bold, beautiful, and long-lasting! Our Velvet Matte Lipstick glides on smoothly with rich pigmentation and a comfortable matte finish that lasts all day. 💋
+      </p>
+<div class="colors">
+        <p>Choose Shade:</p>
+        <div class="color-options" role="radiogroup" aria-label="Shade selection">
+          <button class="color twist active" 
+                  data-color="twist" 
+                  data-image="images/t1.jpg"
+                  aria-label="twist shade" 
+                  role="radio" 
+                  aria-checked="true"></button>
+          <button class="color bold-type" 
+                  data-color="bold-type" 
+                  data-image="images/t2.jpg"
+                  aria-label="bold-type shade" 
+                  role="radio" 
+                  aria-checked="false"></button>
+          <button class="color rent-free" 
+                  data-color="rent-free" 
+                  data-image="images/t3.jpg"
+                  aria-label="rent-free shade" 
+                  role="radio" 
+                  aria-checked="false"></button>
+         <button class="color breaker" 
+                  data-color="breaker" 
+                  data-image="images/t4.jpg"
+                  aria-label="breaker" 
+                  role="radio" 
+                  aria-checked="false"></button>
+         <button class="color vibe-check" 
+                  data-color="vibe-check" 
+                  data-image="images/t5.jpg"
+                  aria-label="vibe-check" 
+                  role="radio" 
+                  aria-checked="false"></button>
+        </div>
+      </div>
+
+      <div class="quantity">
+        <p>Quantity:</p>
+        <div class="quantity-box">
+          <button id="decreaseBtn" aria-label="Decrease quantity">−</button>
+          <input type="number" id="qty" value="1" min="1" max="99" aria-label="Product quantity">
+          <button id="increaseBtn" aria-label="Increase quantity">+</button>
+        </div>
+      </div>
+
+      <div class="buttons">
+        <button class="add-to-cart" id="addToCartBtn">🛒 Add to Cart</button>
+        <button class="buy-now" id="buyNowBtn">💖 Buy Now</button>
+      </div>
+    </div>
+  </main>
+
+  <section class="reviews">
+    <h3>Customer Reviews</h3>
+    <div class="review">
+      <div class="name">Leila A.</div>
+      <div class="stars">★★★★★</div>
+      <p>This lipstick is PERFECT! The formula is so creamy, doesn't dry out my lips, and the color payoff is amazing 💋</p>
+    </div>
+    <div class="review">
+      <div class="name">Yasmin T.</div>
+      <div class="stars">★★★★★</div>
+      <p>Best matte lipstick ever! Stays put all day and feels so lightweight. I own 3 shades now!</p>
+    </div>
+    <div class="review">
+      <div class="name">Mariam K.</div>
+      <div class="stars">★★★★☆</div>
+      <p>Love the Bold Type shade! Super pigmented and long-lasting. Wish it came with a lip liner though.</p>
+    </div>
+
+    <div class="more">
+      <h3>More to Love 💕</h3>
+      <div class="more-items">
+        <a href="product-lip.html" class="more-card">
+          <img src="images/16298001091e62d86b89328f3add1fc986f2633308_wk_sheglam loco for coco.jpg" alt="Sheglam Lip Gloss">
+          <p>Sheglam Lip Gloss - $6.50</p>
+        </a>
+        <a href="product.blush.html" class="more-card">
+          <img src="images/blush heart.jpg" alt="Sheglam Soft Glow Blush">
+          <p>Sheglam Blush - $8.00</p>
+        </a>
+        <a href="product.highlighter.html" class="more-card">
+          <img src="images/highlighter heart.jpg" alt="Sheglam Highlighter">
+          <p>Sheglam Highlighter - $9.99</p>
+        </a>
+        <a href="product.Eyeshadow.html" class="more-card">
+          <img src="images/eyes.jpg" alt="Sheglam eyeshadow">
+          <p>Sheglam eyeshadow - $12.99</p>
+        </a>
+         <a href="product-foundation.html" class="more-card">
+          <img src="images/foundation heart.jpg" alt="Sheglam Foundation">
+          <p>Sheglam Foundation - $10.99</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 SHEGLAM Beauty | All Rights Reserved</p>
+  </footer>
+<script src="product.js"></script>
+</body>
+</html>

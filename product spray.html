@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SHEGLAM Setting Spray</title>
+  <link rel="stylesheet" href="css/product.css">
+  
+</head>
+<body>
+  <header>
+    <h1>SHEGLAM</h1>
+  </header>
+
+  <main class="product-page">
+    <div class="product-gallery">
+      <div class="product-spray"></div>
+      <img id="mainImage" src="images/spray heart.jpg" alt="SHEGLAM Setting Spray">
+    </div>
+
+    <div class="product-info">
+      <h2>SHEGLAM All Day Lock Setting Spray</h2>
+      <div class="rating" role="img" aria-label="5 out of 5 stars">
+        ⭐⭐⭐⭐⭐ <span>(3,456 reviews)</span>
+      </div>
+
+      <p class="price">
+        <span class="old-price">$8.99</span>
+        <span class="new-price">$5.99</span>
+      </p>
+
+      <p class="desc">
+        Lock in your flawless look with our All Day Lock Setting Spray! This ultra-fine mist sets makeup for all-day wear while keeping your skin hydrated and refreshed. Choose from Dewy Finish for a radiant glow, Matte Finish for shine control, or Long-Lasting for maximum hold! 💦✨
+      </p>
+
+      <div class="colors">
+        <p>Choose Type:</p>
+        <div class="color-options" role="radiogroup" aria-label="Shade selection">
+          <button class="color dewy-finish active" 
+                  data-color="dewy-finish" 
+                  data-image="images/spray1.jpg"
+                  aria-label="dewy-finish" 
+                  role="radio" 
+                  aria-checked="true"></button>
+          <button class="color matte-finish" 
+                  data-color="matte-finish" 
+                  data-image="images/spray2.jpg"
+                  aria-label="matte-finish shade" 
+                  role="radio" 
+                  aria-checked="false"></button>
+          <button class="color long-lasting" 
+                  data-color="long-lasting" 
+                  data-image="images/spray3.jpg"
+                  aria-label="long-lasting shade" 
+                  role="radio" 
+                  aria-checked="false"></button>
+        </div>
+      </div>
+
+      <div class="quantity">
+        <p>Quantity:</p>
+        <div class="quantity-box">
+          <button id="decreaseBtn" aria-label="Decrease quantity">−</button>
+          <input type="number" id="qty" value="1" min="1" max="99" aria-label="Product quantity">
+          <button id="increaseBtn" aria-label="Increase quantity">+</button>
+        </div>
+      </div>
+
+      <div class="buttons">
+        <button class="add-to-cart" id="addToCartBtn">🛒 Add to Cart</button>
+        <button class="buy-now" id="buyNowBtn">💖 Buy Now</button>
+      </div>
+    </div>
+  </main>
+
+  <section class="reviews">
+    <h3>Customer Reviews</h3>
+    <div class="review">
+      <div class="name">Emily R.</div>
+      <div class="stars">★★★★★</div>
+      <p>This setting spray is INCREDIBLE! The Dewy Finish gives me such a gorgeous glow. My makeup stays perfect all day! 😍</p>
+    </div>
+    <div class="review">
+      <div class="name">Sarah J.</div>
+      <div class="stars">★★★★★</div>
+      <p>Best setting spray ever! The Matte Finish keeps my oily skin shine-free for hours. Can't live without it!</p>
+    </div>
+    <div class="review">
+      <div class="name">Ashley M.</div>
+      <div class="stars">★★★★☆</div>
+      <p>Love the Long-Lasting formula! My makeup doesn't budge even in humidity. Wish the spray was finer though.</p>
+    </div>
+
+    <div class="more">
+      <h3>More to Love 💕</h3>
+      <div class="more-items">
+        <a href="product primer.html" class="more-card">
+          <img src="images/primer heart.jpg" alt="Sheglam Primer">
+          <p>Sheglam Primer - $6.99</p>
+        </a>
+        <a href="product-foundation.html" class="more-card">
+          <img src="images/foundation heart.jpg" alt="Sheglam Foundation">
+          <p>Sheglam Foundation - $10.99</p>
+        </a>
+        <a href="product-setting powder.html" class="more-card">
+          <img src="images/setting powder heart.jpg" alt="Sheglam Setting Powder">
+          <p>Sheglam Setting Powder - $7.99</p>
+        </a>
+        <a href="product-brow Gel.html" class="more-card">
+        <img src="images/brow heart.jpg" alt="brow gel">
+        <p>SHEGLAM brow gel -  $20.49</p>
+        </a>
+        <a href="product -lip tint.html" class="more-card">
+        <img src="images/lip tint heart.jpg" alt="SHEGLAM Lip tint">
+        <p>SHEGLAM LipTint -  $10.99</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 SHEGLAM Beauty | All Rights Reserved</p>
+  </footer>
+<script src="product.js"></script>
+</body>
+</html>

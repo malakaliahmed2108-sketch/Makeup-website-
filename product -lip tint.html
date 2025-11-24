@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SHEGLAM Lip Tint</title>
+  <link rel="stylesheet" href="css/product.css">
+</head>
+<body>
+  <header>
+    <h1>SHEGLAM</h1>
+  </header>
+  <main class="product-page">
+    <div class="product-gallery">
+      <div class="product-liptint"></div>
+      <img id="mainImage" src="images/lip tint heart.jpg" alt="SHEGLAM Take A Hint Lip Tint">
+    </div>
+
+    <div class="product-info">
+      <h2>SHEGLAM Take A Hint Lip Tint</h2>
+      <div class="rating" role="img" aria-label="5 out of 5 stars">
+        ⭐⭐⭐⭐⭐ <span>(1,453 reviews)</span>
+      </div>
+
+      <p class="price">
+        <span class="old-price">$12.99</span>
+        <span class="new-price">$10.99</span>
+      </p>
+
+      <p class="desc">
+        Get gorgeous, long-lasting color with our Take A Hint Lip Tint! This lightweight, water-based formula glides on smoothly and dries to a beautiful matte finish that lasts all day. Perfect for creating that natural flush look! 💋
+      </p>
+
+      <div class="colors">
+        <p>Choose Shade:</p>
+        <div class="color-options" role="radiogroup" aria-label="Shade selection">
+           <button class="color cherry-picked" 
+                  data-color="cherry-picked" 
+                  data-image="images/tint2.jpg"
+                  aria-label="cherry-picked" 
+                  role="radio" 
+                  aria-checked="true"></button>
+          <button class="color fruit-punch" 
+                  data-color="fruit-punch" 
+                  data-image="images/tint1.jpg"
+                  aria-label="fruit-punch" 
+                  role="radio" 
+                  aria-checked="false"></button>
+          <button class="color it-girl" 
+                  data-color="it-girl" 
+                  data-image="images/tint3.jpg"
+                  aria-label="it-girl" 
+                  role="radio" 
+                  aria-checked="false"></button>
+        </div>
+      </div>
+
+      <div class="quantity">
+        <p>Quantity:</p>
+        <div class="quantity-box">
+          <button id="decreaseBtn" aria-label="Decrease quantity">−</button>
+          <input type="number" id="qty" value="1" min="1" max="99" aria-label="Product quantity">
+          <button id="increaseBtn" aria-label="Increase quantity">+</button>
+        </div>
+      </div>
+
+      <div class="buttons">
+        <button class="add-to-cart" id="addToCartBtn">🛒 Add to Cart</button>
+        <button class="buy-now" id="buyNowBtn">💖 Buy Now</button>
+      </div>
+    </div>
+  </main>
+
+  <section class="reviews">
+    <h3>Customer Reviews</h3>
+    <div class="review">
+      <div class="name">Maya S.</div>
+      <div class="stars">★★★★★</div>
+      <p>This lip tint is AMAZING! The color stays on for hours and looks so natural. Cherry Picked is my favorite shade! 😍</p>
+    </div>
+    <div class="review">
+      <div class="name">Layla H.</div>
+      <div class="stars">★★★★★</div>
+      <p>Best lip tint ever! Doesn't dry out my lips and the color is so pretty. I own all three shades now!</p>
+    </div>
+    <div class="review">
+      <div class="name">Nora K.</div>
+      <div class="stars">★★★★☆</div>
+      <p>Love the Fruit Punch shade! Super pigmented and long-lasting. Wish it came with a lip liner though.</p>
+    </div>
+
+    <div class="more">
+      <h3>More to Love 💕</h3>
+      <div class="more-items">
+        <a href="product-lip.html" class="more-card">
+          <img src="images/16298001091e62d86b89328f3add1fc986f2633308_wk_sheglam loco for coco.jpg" alt="Sheglam Lip Gloss">
+          <p>Sheglam Lip Gloss - $6.50</p>
+        </a>
+        <a href="product.blush.html" class="more-card">
+          <img src="images/blush heart.jpg" alt="Sheglam Blush">
+          <p>Sheglam Blush - $8.00</p>
+        </a>
+        <a href="product.highlighter.html" class="more-card">
+          <img src="images/highlighter heart.jpg" alt="Sheglam Highlighter">
+          <p>Sheglam Highlighter - $9.99</p>
+        </a>
+        <a href="product-setting powder.html" class="more-card">
+          <img src="images/setting powder heart.jpg" alt="SHEGLAM Setting Powder">
+          <p>SHEGLAM Setting Powder - $7.99</p>
+        </a>
+        <a href="product-concealer.html" class="more-card">
+          <img src="images/concealer heart.jpg" alt="SHEGLAM Concealer">
+          <p>SHEGLAM Concealer - $10.99</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 SHEGLAM Beauty | All Rights Reserved</p>
+  </footer>
+  <script src="product.js"></script>
+</body>
+</html>

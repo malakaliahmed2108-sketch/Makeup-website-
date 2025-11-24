@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SHEGLAM Eye Brush</title>
+  <link rel="stylesheet" href="css/product.css">
+  
+</head>
+<body>
+  <header>
+    <h1>SHEGLAM</h1>
+  </header>
+
+  <main class="product-page">
+    <div class="product-gallery">
+      <div class="product-eye brush"></div>
+      <img id="mainImage" src="images/eye brush heart.jpg" alt="SHEGLAM Eye Brush">
+    </div>
+
+    <div class="product-info">
+      <h2>SHEGLAM Pro Eye Brush Set</h2>
+      <div class="rating" role="img" aria-label="5 out of 5 stars">
+        ⭐⭐⭐⭐⭐ <span>(1,892 reviews)</span>
+      </div>
+
+      <p class="price">
+        <span class="old-price">$13.99</span>
+        <span class="new-price">$9.00</span>
+      </p>
+
+      <p class="desc">
+        Create stunning eye looks with our Pro Eye Brush! Made with ultra-soft synthetic bristles, this precision brush ensures smooth, even application every time. Perfect for blending, shading, and creating detailed looks! ✨
+      </p>
+
+      <div class="colors">
+        <p>Choose Type:</p>
+        <div class="color-options" role="radiogroup" aria-label="color selection">
+          <button class="color original" 
+                  data-color="original" 
+                  data-image="images/eye brush 1.jpg"
+                  aria-label="original" 
+                  role="radio" 
+                  aria-checked="true"></button>
+          <button class="color medium" 
+                  data-color="medium" 
+                  data-image="images/eye brush 2.jpg"
+                  aria-label="medium" 
+                  role="radio" 
+                  aria-checked="false"></button>
+          <button class="color deep" 
+                  data-color="deep" 
+                  data-image="images/eye brush 3.jpg"
+                  aria-label="deep" 
+                  role="radio" 
+                  aria-checked="false"></button>
+        </div>
+      </div>
+
+      <div class="quantity">
+        <p>Quantity:</p>
+        <div class="quantity-box">
+          <button id="decreaseBtn" aria-label="Decrease quantity">−</button>
+          <input type="number" id="qty" value="1" min="1" max="99" aria-label="Product quantity">
+          <button id="increaseBtn" aria-label="Increase quantity">+</button>
+        </div>
+      </div>
+
+      <div class="buttons">
+        <button class="add-to-cart" id="addToCartBtn">🛒 Add to Cart</button>
+        <button class="buy-now" id="buyNowBtn">💖 Buy Now</button>
+      </div>
+    </div>
+  </main>
+
+  <section class="reviews">
+    <h3>Customer Reviews</h3>
+    <div class="review">
+      <div class="name">Grace L.</div>
+      <div class="stars">★★★★★</div>
+      <p>This blending brush is PERFECT! So soft and blends my eyeshadow flawlessly. Best brush I've ever used! 😍</p>
+    </div>
+    <div class="review">
+      <div class="name">Lily M.</div>
+      <div class="stars">★★★★★</div>
+      <p>The shader brush is amazing! Applies color so evenly and the bristles are super soft. Love it!</p>
+    </div>
+    <div class="review">
+      <div class="name">Ruby K.</div>
+      <div class="stars">★★★★☆</div>
+      <p>The detail brush is great for precise work! Perfect for my eyeliner and inner corner. Wish it came in a set though.</p>
+    </div>
+
+    <div class="more">
+      <h3>More to Love 💕</h3>
+      <div class="more-items">
+        <a href="product.Eyeshadow.html" class="more-card">
+          <img src="images/eyes.jpg" alt="Sheglam Eyeshadow">
+          <p>Sheglam Eyeshadow - $12.99</p>
+        </a>
+        <a href="product-eye primer.html" class="more-card">
+          <img src="images/eye primer heart.jpg" alt="Sheglam Eye Primer">
+          <p>Sheglam Eye Primer - $8.49</p>
+        </a>
+        <a href="product.eyeliner.html" class="more-card">
+          <img src="images/linear heart.jpg" alt="Sheglam Eyeliner">
+          <p>Sheglam Eyeliner - $5.99</p>
+        </a>
+        <a href="product-contour.html" class="more-card">
+          <img src="images/contour heart.jpg" alt="SHEGLAM Contour">
+          <p>SHEGLAM Contour - $10.99</p>
+        </a>
+         <a href="product-gilter.html" class="more-card">
+        <img src="images/gilter heart.jpg" alt="SHEGLAM gilter">
+        <p>SHEGLAM gilter -  $11.99</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 SHEGLAM Beauty | All Rights Reserved</p>
+  </footer>
+
+  <script src="product.js"></script>
+</body>
+</html>

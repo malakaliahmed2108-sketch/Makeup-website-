@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SHEGLAM Insta-Flawless Concealer</title>
+  <link rel="stylesheet" href="css/product.css">
+  
+</head>
+<body>
+  <header>
+    <h1>SHEGLAM</h1>
+  </header>
+
+  <main class="product-page">
+    <div class="product-gallery">
+      <div class="product-concealer"></div>
+      <img id="mainImage" src="images/concealer heart.jpg" alt="SHEGLAM Insta-Flawless Concealer - Linen">
+    </div>
+
+    <div class="product-info">
+      <h2>SHEGLAM Insta-Flawless Concealer</h2>
+      <div class="rating" role="img" aria-label="5 out of 5 stars">
+        ⭐⭐⭐⭐⭐ <span>(1,842 reviews)</span>
+      </div>
+
+      <p class="price">
+        <span class="old-price">$18.99</span>
+        <span class="new-price">$10.99</span>
+      </p>
+
+      <p class="desc">
+        Get that flawless, airbrushed look with our Insta-Flawless Concealer! This full-coverage, long-lasting formula effortlessly covers dark circles, blemishes, and imperfections while keeping your skin hydrated all day. Available in 21 shades to match every skin tone! ✨
+      </p>
+
+      <div class="shade-info" id="shadeInfo" style="display: none;">
+        <p><strong>Shade:</strong> <span id="shadeName"></span></p>
+        <p><strong>Undertone:</strong> <span id="shadeUndertone"></span></p>
+        <p><strong>Best For:</strong> <span id="shadeBestFor"></span></p>
+      </div>
+
+      <div class="colors">
+        <p>Choose Your Shade (21 shades):</p>
+        <div class="color-options" role="radiogroup" aria-label="shade selection">
+          <button class="color linen active" 
+                  data-color="linen" 
+                  data-image="images/linen.jpg"
+                  aria-label="linen shade" 
+                  role="radio" 
+                  aria-checked="true"></button>
+          <button class="color buttercream" 
+                  data-color="buttercream" 
+                  data-image="images/buttercream.jpg"
+                  aria-label="buttercream shade" 
+                  role="radio" 
+                  aria-checked="false"></button>
+          <button class="color fair" 
+                  data-color="fair" 
+                  data-image="images/c3.jpg"
+                  aria-label="fair shade" 
+                  role="radio" 
+                  aria-checked="false"></button>
+          <button class="color chantilly" 
+                  data-color="chantilly" 
+                  data-image="images/c4.jpg"
+                  aria-label="chantilly shade" 
+                  role="radio" 
+                  aria-checked="false"></button>
+          <button class="color shell" 
+                  data-color="shell" 
+                  data-image="images/c5.jpg"
+                  aria-label="shell shade" 
+                  role="radio" 
+                  aria-checked="false"></button>
+          <button class="color nude" 
+                  data-color="nude" 
+                  data-image="images/c6.jpg"
+                  aria-label="nude shade" 
+                  role="radio" 
+                  aria-checked="false"></button>
+          <button class="color pink-pearl" 
+                  data-color="pink-pearl" 
+                  data-image="images/c7.jpg"
+                  aria-label="pink-pearl" 
+                  role="radio" 
+                  aria-checked="false"></button>
+          <button class="color acorn" 
+                  data-color="acorn" 
+                  data-image="images/c8.jpg"
+                  aria-label="acorn shade" 
+                  role="radio" 
+                  aria-checked="true"></button>
+          <button class="color light" 
+                  data-color="light" 
+                  data-image="images/c9.jpg"
+                  aria-label="light" 
+                  role="radio" 
+                  aria-checked="false"></button>
+         <button class="color sand" 
+                  data-color="sand" 
+                  data-image="images/c10.jpg"
+                  aria-label="sand shade" 
+                  role="radio" 
+                  aria-checked="false"></button>
+         <button class="color honey" 
+                  data-color="honey" 
+                  data-image="images/c11.jpg"
+                  aria-label="honey shade" 
+                  role="radio" 
+                  aria-checked="false"></button>
+         <button class="color golden" 
+                  data-color="golden" 
+                  data-image="images/c12.jpg"
+                  aria-label="golden shade" 
+                  role="radio" 
+                  aria-checked="false"></button>
+         <button class="color almond" 
+                  data-color="almond" 
+                  data-image="images/c13.jpg"
+                  aria-label="almond shade" 
+                  role="radio" 
+                  aria-checked="false"></button>
+         <button class="color chestnut" 
+                  data-color="chestnut" 
+                  data-image="images/c14.jpg"
+                  aria-label="chestnut shade" 
+                  role="radio" 
+                  aria-checked="false"></button>
+         <button class="color caramel" 
+                  data-color="caramel" 
+                  data-image="images/carmel.jpg"
+                  aria-label="caramel shade" 
+                  role="radio" 
+                  aria-checked="false"></button>
+         <button class="color hazelnut" 
+                  data-color="hazelnut" 
+                  data-image="images/huz cc.jpg"
+                  aria-label="hazelnut shade" 
+                  role="radio" 
+                  aria-checked="false"></button>
+         <button class="color earth" 
+                  data-color="earth" 
+                  data-image="images/earth c.jpg"
+                  aria-label="earth shade" 
+                  role="radio" 
+                  aria-checked="false"></button>
+          <button class="color nutmeg" 
+                  data-color="nutmeg" 
+                  data-image="images/nuth c.jpg"
+                  aria-label="nutmeg shade" 
+                  role="radio" 
+                  aria-checked="false"></button>
+          <button class="color mocha" 
+                  data-color="mocha" 
+                  data-image="images/sepia c.jpg"
+                  aria-label="mocha shade" 
+                  role="radio" 
+                  aria-checked="false"></button>
+          <button class="color russet" 
+                  data-color="russet" 
+                  data-image="images/russet c.jpg"
+                  aria-label=" russet" 
+                  role="radio" 
+                  aria-checked="false"></button>
+          <button class="color mahogany" 
+                  data-color="mahogany" 
+                  data-image="images/ccccc.jpg"
+                  aria-label="mahogany shade" 
+                  role="radio" 
+                  aria-checked="false"></button>
+       </div>
+      </div>
+
+      <div class="quantity">
+        <p>Quantity:</p>
+        <div class="quantity-box">
+          <button id="decreaseBtn" aria-label="Decrease quantity">−</button>
+          <input type="number" id="qty" value="1" min="1" max="99" aria-label="Product quantity">
+          <button id="increaseBtn" aria-label="Increase quantity">+</button>
+        </div>
+      </div>
+
+      <div class="buttons">
+        <button class="add-to-cart" id="addToCartBtn">🛒 Add to Cart</button>
+        <button class="buy-now" id="buyNowBtn">💖 Buy Now</button>
+      </div>
+    </div>
+  </main>
+
+  <section class="reviews">
+    <h3>Customer Reviews</h3>
+    <div class="review">
+      <div class="name">Sarah M.</div>
+      <div class="stars">★★★★★</div>
+      <p>This concealer is AMAZING! It covers everything without feeling heavy. The shade range is incredible - finally found my perfect match! 😍</p>
+    </div>
+    <div class="review">
+      <div class="name">Fatima K.</div>
+      <div class="stars">★★★★★</div>
+      <p>Best concealer I've ever used! Doesn't crease, lasts all day, and the coverage is phenomenal. Worth every penny!</p>
+    </div>
+    <div class="review">
+      <div class="name">Jessica L.</div>
+      <div class="stars">★★★★☆</div>
+      <p>Love the formula and coverage! The Honey shade is perfect for me. Only wish the applicator was slightly bigger.</p>
+    </div>
+
+    <div class="more">
+      <h3>Complete Your Look 💄</h3>
+      <div class="more-items">
+        <a href="product-foundation.html" class="more-card">
+          <img src="images/foundation heart.jpg" alt="SHEGLAM Foundation">
+          <p>SHEGLAM Foundation - $10.99</p>
+        </a>
+        <a href="product-setting powder.html" class="more-card">
+          <img src="images/setting powder heart.jpg" alt="SHEGLAM Setting Powder">
+          <p>SHEGLAM Setting Powder - $7.99</p>
+        </a>
+        <a href="product.blush.html" class="more-card">
+          <img src="images/blush heart.jpg" alt="SHEGLAM Blush">
+          <p>SHEGLAM Blush - $8.00</p>
+        </a>
+        <a href="product.highlighter.html" class="more-card">
+          <img src="images/highlighter heart.jpg" alt="SHEGLAM Highlighter">
+          <p>SHEGLAM Highlighter - $9.99</p>
+        </a>
+         <a href="product -lip tint.html" class="more-card">
+        <img src="images/lip tint heart.jpg" alt="SHEGLAM Lip tint">
+        <p>SHEGLAM LipTint -  $10.99</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 SHEGLAM Beauty | All Rights Reserved</p>
+  </footer>
+
+  <script src="product.js"></script>
+</body>
+</html>
+    
