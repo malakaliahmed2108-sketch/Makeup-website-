@@ -3,121 +3,156 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact – SHEGLAM Theme</title>
-    <link rel="stylesheet" href="contact.css">
+    <title>Makeup Glam | Contact Us</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="contact.css">
 </head>
-
 <body>
+    
+    <!-- Navbar -->
+    <nav>
+        <div class="logo">
+            <img src="images/logo.png" alt="Logo" onerror="this.src='https://via.placeholder.com/45/ffb6c1/ffffff?text=MG'">
+            <span>Makeup Glam</span>
+        </div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="#offers">Offers</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+    </nav>
 
-    <!-- ===== NAVBAR ===== -->
-    <header class="navbar">
-        <div class="logo">sheglam</div>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#">Services</a></li>
-                <li class="active"><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <!-- ===== HERO SECTION ===== -->
+    <!-- Hero Section -->
     <section class="hero">
         <div class="hero-content">
-            <h1>Contact Us</h1>
-            <p>We’d love to hear from you. Get in touch anytime.</p>
+            <h1>Get in Touch 💕</h1>
+            <p>We'd love to hear from you. Reach out anytime!</p>
         </div>
     </section>
 
-    <!-- ===== CONTACT CONTENT ===== -->
+    <!-- Contact Content -->
     <section class="contact-container">
+        <!-- Contact Form -->
         <div class="contact-card">
-            <h2>Send a Message</h2>
-
-            <form>
+            <h2>Send Us a Message</h2>
+            <form id="contactForm">
                 <div class="input-group">
-                    <label>Your Name</label>
-                    <input type="text" placeholder="Enter your name">
+                    <label for="name">Your Name</label>
+                    <div class="input-wrapper">
+                        <i class="fas fa-user"></i>
+                        <input type="text" id="name" placeholder="Enter your name" required>
+                    </div>
                 </div>
-
+                
                 <div class="input-group">
-                    <label>Email Address</label>
-                    <input type="email" placeholder="Enter your email">
+                    <label for="email">Email Address</label>
+                    <div class="input-wrapper">
+                        <i class="fas fa-envelope"></i>
+                        <input type="email" id="email" placeholder="Enter your email" required>
+                    </div>
                 </div>
-
+                
                 <div class="input-group">
-                    <label>Message</label>
-                    <textarea placeholder="Type your message..."></textarea>
+                    <label for="message">Message</label>
+                    <div class="input-wrapper">
+                        <i class="fas fa-message"></i>
+                        <textarea id="message" placeholder="Type your message..." required></textarea>
+                    </div>
                 </div>
-
-                <button class="send-btn">Send Message</button>
+                
+                <button type="submit" class="send-btn">Send Message ✨</button>
             </form>
         </div>
 
+        <!-- Contact Info -->
         <div class="contact-info">
             <h2>Contact Details</h2>
-
+            
             <div class="info-box">
                 <i class="fas fa-envelope"></i>
-                <p>support@yourbrand.com</p>
+                <div>
+                    <h3>Email</h3>
+                    <p>support@makeupglam.com</p>
+                </div>
             </div>
-
+            
             <div class="info-box">
                 <i class="fas fa-phone"></i>
-                <p>+20 111 222 3333</p>
+                <div>
+                    <h3>Phone</h3>
+                    <p>+20 111 222 3333</p>
+                </div>
             </div>
-
+            
             <div class="info-box">
                 <i class="fas fa-location-dot"></i>
-                <p>Cairo, Egypt</p>
+                <div>
+                    <h3>Location</h3>
+                    <p>Cairo, Egypt</p>
+                </div>
+            </div>
+
+            <div class="social-links">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/makeup.by.ayat/" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.facebook.com/makeup.by.ayat" target="_blank">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="https://www.tiktok.com/@makeup.by.ayat" target="_blank">
+                        <i class="fab fa-tiktok"></i>
+                    </a>
+                    <a href="#" target="_blank">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- ===== FULL SHEGLAM FOOTER ===== -->
-<footer class="main-footer">
-
-    <div class="footer-top">
-        <div class="footer-col">
-            <h3>About Us</h3>
-            <a href="#">Our Story</a>
-            <a href="#">Careers</a>
-            <a href="#">Press</a>
-            <a href="#">Sustainability</a>
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="footer-top">
+            <div class="footer-col">
+                <h3>About Us</h3>
+                <a href="#">Our Story</a>
+                <a href="#">Careers</a>
+                <a href="#">Press</a>
+                <a href="#">Sustainability</a>
+            </div>
+            <div class="footer-col">
+                <h3>Customer Service</h3>
+                <a href="contact.html">Contact Us</a>
+                <a href="#">Shipping Info</a>
+                <a href="#">Returns & Exchanges</a>
+                <a href="#">FAQ</a>
+            </div>
+            <div class="footer-col">
+                <h3>Shop</h3>
+                <a href="products.html">New Arrivals</a>
+                <a href="products.html">Best Sellers</a>
+                <a href="#">Gift Sets</a>
+                <a href="#">Sale</a>
+            </div>
+            <div class="footer-col">
+                <h3>Connect</h3>
+                <a href="https://www.instagram.com" target="_blank">Instagram</a>
+                <a href="https://www.facebook.com" target="_blank">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="https://www.tiktok.com" target="_blank">TikTok</a>
+            </div>
         </div>
-
-        <div class="footer-col">
-            <h3>Customer Service</h3>
-            <a href="#">Contact Us</a>
-            <a href="#">Shipping Info</a>
-            <a href="#">Returns & Exchanges</a>
-            <a href="#">FAQ</a>
+        <div class="footer-bottom">
+            © 2025 Makeup Glam. All rights reserved.
         </div>
+    </footer>
 
-        <div class="footer-col">
-            <h3>Shop</h3>
-            <a href="#">New Arrivals</a>
-            <a href="#">Best Sellers</a>
-            <a href="#">Gift Sets</a>
-            <a href="#">Sale</a>
-        </div>
-
-        <div class="footer-col">
-            <h3>Connect</h3>
-            <a href="#">Instagram</a>
-            <a href="#">Facebook</a>
-            <a href="#">Twitter</a>
-            <a href="#">TikTok</a>
-        </div>
-    </div>
-
-    <div class="footer-bottom">
-        © 2024 SHEGLAM. All rights reserved.
-    </div>
-
-</footer>
-
+    <script src="contact.js"></script>
 
 </body>
 </html>
