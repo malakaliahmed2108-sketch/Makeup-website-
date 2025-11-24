@@ -1,0 +1,230 @@
+/* ===== FONTS ===== */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+    width: 100%;
+    padding: 18px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff20;
+    backdrop-filter: blur(10px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.navbar .logo {
+    font-size: 26px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.navbar ul .active a {
+    border-bottom: 2px solid white;
+}
+
+/* ===== HERO SECTION ===== */
+.hero {
+    width: 100%;
+    height: 50vh;
+    background: linear-gradient(to bottom, #7e49ff, #a171ff, #d7c6ff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+    color: white;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* ===== CONTACT CONTENT ===== */
+.contact-container {
+    width: 85%;
+    margin: 60px auto;
+    display: grid;
+    grid-template-columns: 1.4fr 1fr;
+    gap: 40px;
+}
+
+/* ===== CONTACT FORM CARD ===== */
+.contact-card {
+    background: white;
+    padding: 35px;
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+
+.contact-card h2 {
+    font-size: 26px;
+    margin-bottom: 20px;
+    color: #3b2477;
+}
+
+.input-group {
+    margin-bottom: 18px;
+}
+
+.input-group label {
+    display: block;
+    font-size: 15px;
+    margin-bottom: 6px;
+    font-weight: 500;
+}
+
+.input-group input,
+.input-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    outline: none;
+    transition: .3s;
+}
+
+.input-group input:focus,
+.input-group textarea:focus {
+    border-color: #8a4fff;
+    box-shadow: 0 0 5px #b79aff;
+}
+
+textarea {
+    height: 120px;
+    resize: none;
+}
+
+.send-btn {
+    width: 100%;
+    padding: 14px;
+    background: linear-gradient(90deg, #7d2aff, #b58aff);
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.send-btn:hover {
+    transform: translateY(-2px);
+    opacity: .9;
+}
+
+/* ===== CONTACT INFO ===== */
+.contact-info {
+    background: white;
+    padding: 35px;
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+
+.contact-info h2 {
+    font-size: 26px;
+    margin-bottom: 20px;
+    color: #3b2477;
+}
+
+.info-box {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.info-box i {
+    font-size: 25px;
+    color: #7e49ff;
+}
+
+.info-box p {
+    font-size: 17px;
+    color: #333;
+}
+
+/* ===== FOOTER ===== */
+.footer {
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 60px;
+    font-size: 14px;
+    color: #555;
+}
+/* ===== BIG FOOTER ===== */
+.main-footer {
+    width: 100%;
+    background: #1c1c1c;
+    color: #ddd;
+    padding-top: 60px;
+    margin-top: 70px;
+}
+
+.footer-top {
+    width: 85%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #333;
+}
+
+.footer-col h3 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.footer-col a {
+    display: block;
+    color: #cfcfcf;
+    font-size: 15px;
+    margin-bottom: 12px;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.footer-col a:hover {
+    color: #ffffff;
+    padding-left: 5px;
+}
+
+/* ===== COPYRIGHT ===== */
+.footer-bottom {
+    text-align: center;
+    padding: 25px 0;
+    font-size: 14px;
+    color: #ccc;
+}

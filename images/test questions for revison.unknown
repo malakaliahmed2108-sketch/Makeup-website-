@@ -1,0 +1,452 @@
+MCQ test for web design.
+
+1. What does HTML stand for?
+a) Hyper Tool Markup Language
+b) Hyperlinks and Text Markup Language
+c) Home Tool Markup Language
+d) Hyper Text Markup Language
+
+2. Which HTML5 element is used to define navigation links?
+a) <nav>
+b) <navigation>
+c) <links>
+d) <menu>
+
+3. In CSS, which property is used to change the background color of an element?
+a) color
+b) bgcolor
+c) background-color
+d) background
+
+4. What is the correct way to comment out a single line in JavaScript?
+a) // This is a comment
+b) <!-- This is a comment -->
+c) /* This is a comment */
+d) ' This is a comment
+
+5. Which of the following is an inline HTML element?
+a) <div>
+b) <p>
+c) <span>
+d) <h1>
+
+6. What will the following CSS code do? p { border: 1px solid black; }
+a) Adds a 1-pixel solid black border to all paragraphs.
+b) Changes the font of all paragraphs to black.
+c) Adds a 1-pixel solid black border to the entire page.
+d) Makes the background of paragraphs black.
+
+7. Which JavaScript keyword is used to declare a variable that cannot be reassigned?
+a) var
+b) let
+c) const
+d) static
+
+8. What is the purpose of the alt attribute in an <img> tag?
+a) To provide a source for the image.
+b) To define the image alignment.
+c) To provide alternative text if the image cannot be displayed.
+d) To set the image width and height.
+
+9. Which CSS property is used to control the space between the element's content and its border?
+a) margin
+b) padding
+c) spacing
+d) border-space
+
+10. Analyze the code: <a href="https://www.example.com" target="_self">Link</a>. Where will the link open?
+a) In a new tab or window.
+b) In the same frame as it was clicked.
+c) In the parent frame.
+d) In the full body of the window.
+
+11. What is the output of console.log(2 + 3 + "5"); in JavaScript?
+a) 10
+b) 55
+c) 235
+d) "55"
+
+12. Which HTML tag is used to define an internal stylesheet?
+a) <script>
+b) <css>
+c) <style>
+d) <link>
+
+13. In JavaScript, which method is used to select an element by its ID?
+a) document.querySelector()
+b) document.getElementByTagName()
+c) document.getElementById()
+d) document.findElement()
+
+14. What does the following CSS code do? position: fixed;
+a) Positions the element relative to its normal position.
+b) Positions the element relative to the browser window.
+c) Positions the element relative to its first positioned ancestor.
+d) The element is not positioned in any special way.
+
+15. Which HTML attribute is used to make a checkbox selected by default?
+a) selected
+b) checked
+c) default
+d) on
+
+16. What will typeof null return in JavaScript?
+a) "null"
+b) "undefined"
+c) "object"
+d) "number"
+
+17. Which CSS property controls the text size?
+a) text-style
+b) font-size
+c) text-size
+d) font-style
+
+18. What is the correct way to write a JavaScript for loop?
+a) for (i = 0; i < 5; i++)
+b) for (i = 0; i < 5)
+c) for (i <= 5; i++)
+d) for (i = 0 to 5)
+
+19. Which HTML tag is used to create a drop-down list?
+a) <list>
+b) <input type="dropdown">
+c) <select>
+d) <dropdown>
+
+20. True or False: The CSS float property is used for positioning and layout.
+a) True
+b) False
+
+21. What is the purpose of the DOCTYPE declaration in HTML?
+a) To define the document's character set.
+b) To link to an external CSS file.
+c) To specify the version of HTML the page is written in.
+d) To create a comment.
+
+22. Which JavaScript event occurs when the user clicks on an HTML element?
+a) onmouseclick
+b) onclick
+c) onmouseover
+d) onchange
+
+23. What does the following CSS code do? display: none;
+a) Hides the element but reserves its space.
+b) Hides the element and removes its space.
+c) Makes the element invisible but clickable.
+d) Displays the element as an inline-block.
+
+24. Which of the following is a valid way to create a function in JavaScript?
+a) function = myFunction() {}
+b) function myFunction() {}
+c) create myFunction() {}
+d) def myFunction() {}
+
+25. What is the correct HTML for inserting an image?
+a) <image src="image.jpg" alt="My Image">
+b) <img href="image.jpg" alt="My Image">
+c) <img src="image.jpg" alt="My Image">
+d) <img alt="My Image">image.jpg</img>
+
+26. Analyze the code: let x = "5"; let y = 2; let z = x + y;. What is the value of z?
+a) 7
+b) 52
+c) "52"
+d) 5+2
+
+27. Which CSS property is used to change the font of an element?
+a) font-family
+b) font-style
+c) text-font
+d) font-weight
+
+28. In HTML, which tag is used to define a table row?
+a) <td>
+b) <tr>
+c) <th>
+d) <table-row>
+
+29. What is the output of "Hello".toUpperCase() in JavaScript?
+a) "HELLO"
+b) "hello"
+c) "Hello"
+d) Error
+
+30. Which CSS property is used to add space between the border and the content of an element?
+a) margin
+b) spacing
+c) padding
+d) border-spacing
+
+31. True or False: JavaScript is a statically typed language.
+a) True
+b) False
+
+32. Which HTML element is used to specify a header for a document or section?
+a) <head>
+b) <header>
+c) <top>
+d) <h1>
+
+33. What does the === operator do in JavaScript?
+a) Assigns a value to a variable.
+b) Compares values for equality, without type conversion.
+c) Compares values for equality, with type conversion.
+d) Checks if a variable is defined.
+
+34. Which CSS value for display is used to treat an element as a grid container?
+a) display: block;
+b) display: flex;
+c) display: grid;
+d) display: inline-grid;
+
+35. What is the purpose of the <br> tag in HTML?
+a) To create a bold text.
+b) To create a line break.
+c) To create a horizontal rule.
+d) To create a new paragraph.
+
+36. Analyze the code: document.write(5 + 6);. What will happen if this is executed after the page has loaded?
+a) It will write 11 to the document.
+b) It will delete all existing HTML and write 11.
+c) It will cause an error.
+d) It will do nothing.
+
+37. Which property is used to change the left margin of an element in CSS?
+a) margin-left
+b) padding-left
+c) indent
+d) left-margin
+
+38. In JavaScript, which of the following is a falsy value?
+a) "0"
+b) 1
+c) [] (empty array)
+d) 0
+
+39. Which HTML tag is used to define the title of a document?
+a) <meta>
+b) <title>
+c) <head>
+d) <document-title>
+
+40. What does the Array.push() method do in JavaScript?
+a) Removes the first element from an array.
+b) Adds one or more elements to the end of an array.
+c) Removes the last element from an array.
+d) Reverses the order of the elements in an array.
+
+41. Which CSS property controls the order of flexible items inside a flex container?
+a) order
+b) flex-order
+c) align-items
+d) flex-direction
+
+42. True or False: The <script> tag can only be placed in the <head> section of an HTML document.
+a) True
+b) False
+
+43. What is the result of the expression (0.1 + 0.2 === 0.3) in JavaScript?
+a) true
+b) false
+c) NaN
+d) undefined
+
+44. Which HTML element is used to draw graphics, on the fly, via scripting?
+a) <canvas>
+b) <graphics>
+c) <draw>
+d) <svg>
+
+45. Which CSS pseudo-class is used to select elements when you mouse over them?
+a) :active
+b) :hover
+c) :focus
+d) :mouseover
+
+46. What is the purpose of the let keyword in JavaScript?
+a) To declare a variable with block scope.
+b) To declare a variable with global scope.
+c) To declare a constant variable.
+d) To declare a function.
+
+47. Analyze the code: <input type="text" name="username" required>. What does the required attribute do?
+a) It makes the field read-only.
+b) It sets a maximum length for the input.
+c) It specifies that the input field must be filled out before submitting the form.
+d) It hides the input field.
+
+48. Which method is used to parse a string and return an integer in JavaScript?
+a) Number()
+b) parseInt()
+c) parseFloat()
+d) String()
+
+49. In CSS, what is the default value of the position property?
+a) relative
+b) absolute
+c) fixed
+d) static
+
+50. Which JavaScript method is used to remove the last element from an array?
+a) pop()
+b) shift()
+c) remove()
+d) delete()
+
+
+
+Answer Key with Explanations:
+
+1. d) Hyper Text Markup Language
+Explanation: HTML is the standard acronym for Hyper Text Markup Language, which is the foundational structure of web pages.
+
+2. a) <nav>
+Explanation: The <nav> element is the HTML5 semantic tag specifically designed to contain navigation links.
+
+3. c) background-color
+Explanation: The background-color property in CSS is used to set the background color of any element.
+
+4. a) // This is a comment
+Explanation: In JavaScript, single-line comments are created using a double forward slash //.
+
+5. c) <span>
+Explanation: The <span> element is an inline container, unlike <div>, <p>, and <h1> which are block-level elements.
+
+6. a) Adds a 1-pixel solid black border to all paragraphs.
+Explanation: The CSS rule p { border: 1px solid black; } applies a solid black border that is 1 pixel wide to all <p> elements.
+
+7. c) const
+Explanation: The const keyword is used to declare a constant variable, which cannot be reassigned after its initial declaration.
+
+8. c) To provide alternative text if the image cannot be displayed.
+Explanation: The alt attribute provides descriptive text for screen readers and if the image fails to load, improving accessibility.
+
+9. b) padding
+Explanation: Padding is the space between an element's content and its border, controlled by the padding property.
+
+10. b) In the same frame as it was clicked.
+Explanation: The _self value for the target attribute is the default behavior, opening the link in the same window/tab.
+
+11. b) 55
+Explanation: JavaScript evaluates from left to right. 2 + 3 equals 5. Then 5 + "5" results in string concatenation, producing "55".
+
+12. c) <style>
+Explanation: The <style> tag is placed within the <head> section to define an internal CSS stylesheet.
+
+13. c) document.getElementById()
+Explanation: This is the standard DOM method for selecting a single element based on its unique id attribute.
+
+14. b) Positions the element relative to the browser window.
+Explanation: An element with position: fixed; is removed from the normal document flow and is positioned relative to the viewport.
+
+15. b) checked
+Explanation: The Boolean checked attribute is used to pre-select a checkbox or radio button in HTML.
+
+16. c) "object"
+Explanation: This is a known quirk in JavaScript; the typeof null returns "object" for legacy reasons.
+
+17. b) font-size
+Explanation: The font-size property is specifically used to control the size of the text.
+
+18. a) for (i = 0; i < 5; i++)
+Explanation: This is the correct syntax for a for loop, which includes initialization, condition, and final-expression.
+
+19. c) <select>
+Explanation: The <select> element is used to create a drop-down list, with options defined by <option> tags.
+
+20. a) True
+Explanation: The float property is a classic CSS technique for positioning elements, often used for layouts involving text wrapping around images.
+
+21. c) To specify the version of HTML the page is written in.
+Explanation: The <!DOCTYPE> declaration instructs the web browser about the HTML version to ensure correct rendering.
+
+22. b) onclick
+Explanation: The onclick event handler is triggered when a user clicks on an HTML element.
+
+23. b) Hides the element and removes its space.
+Explanation: display: none; completely removes the element from the document layout, so no space is reserved for it.
+
+24. b) function myFunction() {}
+Explanation: This is the standard syntax for defining a function in JavaScript.
+
+25. c) <img src="image.jpg" alt="My Image">
+Explanation: The correct tag is <img>, with the image path defined in the src attribute and descriptive text in the alt attribute.
+
+26. c) "52"
+Explanation: Since x is a string, the + operator performs string concatenation, combining "5" and 2 into "52".
+
+27. a) font-family
+Explanation: The font-family property is used to specify the font for an element (e.g., Arial, Verdana).
+
+28. b) <tr>
+Explanation: The <tr> tag defines a row within an HTML table, which contains <td> (data cell) or <th> (header cell) elements.
+
+29. a) "HELLO"
+Explanation: The .toUpperCase() string method converts all characters in a string to uppercase.
+
+30. c) padding
+Explanation: Padding creates space inside the element, between its content and its border.
+
+31. b) False
+Explanation: JavaScript is dynamically typed, meaning you don't have to declare the type of a variable (e.g., number, string) ahead of time.
+
+32. b) <header>
+Explanation: The <header> element is a semantic HTML5 tag used to define introductory content or a set of navigational links for a document or section.
+
+33. b) Compares values for equality, without type conversion.
+Explanation: The strict equality operator === checks if both the value and the data type are the same.
+
+34. c) display: grid;
+Explanation: Setting display: grid; on a container element enables the CSS Grid Layout model for its children.
+
+35. b) To create a line break.
+Explanation: The <br> tag is an empty tag that produces a line break in text (like pressing "Enter").
+
+36. b) It will delete all existing HTML and write 11.
+Explanation: If document.write() is used after the HTML document is fully loaded, it will overwrite the entire document, including all existing HTML.
+
+37. a) margin-left
+Explanation: The margin-left property is specifically used to set the left margin of an element.
+
+38. d) 0
+Explanation: In JavaScript, the number 0 is a "falsy" value, meaning it evaluates to false in a Boolean context.
+
+39. b) <title>
+Explanation: The <title> tag, placed within the <head> section, defines the title of the document shown in the browser's title bar or tab.
+
+40. b) Adds one or more elements to the end of an array.
+Explanation: The .push() method is used to add new items to the end of an array and returns the new length.
+
+41. a) order
+Explanation: In CSS Flexbox, the order property controls the sequence in which flex items appear inside the flex container.
+
+42. b) False
+Explanation: The <script> tag can be placed in either the <head> or the <body> section of an HTML document.
+
+43. b) false
+Explanation: Due to how floating-point numbers are represented in JavaScript, 0.1 + 0.2 results in 0.30000000000000004, which is not exactly equal to 0.3.
+
+44. a) <canvas>
+Explanation: The <canvas> element is used to draw graphics via JavaScript; it is a container for graphics.
+
+45. b) :hover
+Explanation: The :hover CSS pseudo-class is applied to an element when the user hovers their mouse over it.
+
+46. a) To declare a variable with block scope.
+Explanation: Variables declared with let are limited in scope to the block, statement, or expression in which they are used.
+
+47. c) It specifies that the input field must be filled out before submitting the form.
+Explanation: The Boolean required attribute in HTML5 indicates that a form field must be filled in before the form can be submitted.
+
+48. b) parseInt()
+Explanation: The parseInt() function parses a string argument and returns an integer of the specified radix (base).
+
+49. d) static
+Explanation: static is the default position value for all HTML elements. They are positioned according to the normal flow of the page.
+
+50. a) pop()
+Explanation: The .pop() method removes the last element from an array and returns that element.
+
+
+
