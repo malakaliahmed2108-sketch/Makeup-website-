@@ -6,56 +6,56 @@ const products = [
     name: "Sheglam Foundation", 
     price: "$10.99", 
     category: "face", 
-    img: "images/foundation heart.jpg",
+    img: "foundation heart.jpg",
     link: "product-foundation.html"
   },
   { 
     name: "Sheglam Concealer", 
     price: "$10.99", 
     category: "face", 
-    img: "images/concealer heart.jpg",
+    img: "concealer heart.jpg",
     link: "product-concealer.html"
   },
   { 
     name: "Sheglam Blush", 
     price: "$8.00", 
     category: "face", 
-    img: "images/blush heart.jpg",
+    img: "blush heart.jpg",
     link: "product.blush.html"
   },
   { 
     name: "Sheglam Highlighter", 
     price: "$9.99", 
     category: "face", 
-    img: "images/highlighter heart.jpg",
+    img: "highlighter heart.jpg",
     link: "product.highlighter.html"
   },
   { 
     name: "Sheglam Primer", 
     price: "$6.99", 
     category: "face", 
-    img: "images/primer heart.jpg",
+    img: "primer heart.jpg",
     link: "product primer.html"
   },
   { 
     name: "Sheglam Setting Spray", 
     price: "$5.99", 
     category: "face", 
-    img: "images/spray heart.jpg",
+    img: "spray heart.jpg",
     link: "product spray.html"
   },
   { 
     name: "Sheglam Contour", 
     price: "$10.99", 
     category: "face", 
-    img: "images/contour heart.jpg",
+    img: "contour heart.jpg",
     link: "product-contour.html"
   },
   { 
     name: "Sheglam Powder", 
     price: "$7.99", 
     category: "face", 
-    img: "images/setting powder heart.jpg",
+    img: "setting powder heart.jpg",
     link: "product-setting powder.html"
   },
 
@@ -64,56 +64,56 @@ const products = [
     name: "Sheglam Mascara", 
     price: "$8.99", 
     category: "eye", 
-    img: "images/mascara.jpg",
+    img: "mascara.jpg",
     link: "product.mascara.html"
   },
   { 
     name: "Sheglam Eyeliner", 
     price: "$5.99", 
     category: "eye", 
-    img: "images/linear heart.jpg",
+    img: "linear heart.jpg",
     link: "product.eyeliner.html"
   },
   { 
     name: "Sheglam Eyeshadow", 
     price: "$12.99", 
     category: "eye", 
-    img: "images/eyes.jpg",
+    img: "eyes.jpg",
     link: "product.Eyeshadow.html"
   },
   { 
     name: "Sheglam Brow Gel", 
     price: "$20.49", 
     category: "eye", 
-    img: "images/brow heart.jpg",
+    img: "brow heart.jpg",
     link: "product-brow Gel.html"
   },
   { 
     name: "Sheglam Lashes", 
     price: "$12.99", 
     category: "eye", 
-    img: "images/lashes heart.jpg",
+    img: "lashes heart.jpg",
     link: "product-lashes.html"
   },
   { 
     name: "Sheglam Eye Primer", 
     price: "$8.49", 
     category: "eye", 
-    img: "images/eye primer heart.jpg",
+    img: "eye primer heart.jpg",
     link: "product-eye primer.html"
   },
   { 
     name: "Sheglam Glitter", 
     price: "$11.99", 
     category: "eye", 
-    img: "images/gilter heart.jpg",
+    img: "gilter heart.jpg",
     link: "product-gilter.html"
   },
   { 
     name: "Sheglam Eye Brush", 
     price: "$9.00", 
     category: "eye", 
-    img: "images/eye brush heart.jpg",
+    img: "eye brush heart.jpg",
     link: "product eye brush.html"
   },
 
@@ -122,35 +122,35 @@ const products = [
     name: "Sheglam Lipstick", 
     price: "$11.00", 
     category: "lips", 
-    img: "images/lip stick heart.jpg",
+    img: "lip stick heart.jpg",
     link: "product.lipstick.html"
   },
   { 
     name: "Sheglam Lip Gloss", 
     price: "$6.50", 
     category: "lips", 
-    img: "images/16298001091e62d86b89328f3add1fc986f2633308_wk_sheglam loco for coco.jpg",
+    img: "16298001091e62d86b89328f3add1fc986f2633308_wk_sheglam loco for coco.jpg",
     link: "product-lip.html"
   },
   { 
     name: "Sheglam Lip Oil", 
     price: "$9.00", 
     category: "lips", 
-    img: "images/lip oil heart.jpg",
+    img: "lip oil heart.jpg",
     link: "product-lip oil.html"
   },
   { 
     name: "Sheglam Lip Liner", 
     price: "$6.49", 
     category: "lips", 
-    img: "images/lip liner heart.jpg",
+    img: "lip liner heart.jpg",
     link: "product-lip liner.html"
   },
   { 
     name: "Sheglam Matte Lipstick", 
     price: "$11.00", 
     category: "lips", 
-    img: "images/lip stick heart.jpg",
+    img: "lip stick heart.jpg",
     link: "product.lipstick.html"
   },
    
@@ -158,7 +158,7 @@ const products = [
     name: "Sheglam Lip Tint", 
     price: "$10.99", 
     category: "lips", 
-    img: "images/lip tint heart.jpg",
+    img: "lip tint heart.jpg",
     link: "product -lip tint.html"
   },
 ];
@@ -226,3 +226,4 @@ function viewDetails(productLink) {
   }
 
 }
+
