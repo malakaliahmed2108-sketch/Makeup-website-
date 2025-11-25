@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHEGLAM Collections</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* إضافة بعض التعديلات البسيطة على الأنيميشن */
+        @keyframes slideInRight {
+            from {
+                transform: translateX(100%);
+                opacity: 0;
+            }
+            to {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+        @keyframes slideOutRight {
+            from {
+                transform: translateX(0);
+                opacity: 1;
+            }
+            to {
+                transform: translateX(100%);
+                opacity: 0;
+            }
+        }
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.2); }
+        }
+    </style>
+</head>
+<body>
+    <!-- Full-Screen Popup Advertisement -->
+    <div id="popupAd" class="popup-ad">
+        <div class="popup-ad-content">
+            <button class="popup-close" id="popupClose">&times;</button>
+            
+            <!-- Badge -->
+            <div class="popup-badge">BLACK FRIDAY UP TO 50% OFF</div>
+            
+            <!-- Header with Logo -->
+            <div class="popup-header">
+                <h2 class="popup-logo">SHEGLAM</h2>
+            </div>
+            
+            <!-- Main Content -->
+            <div class="popup-body">
+                <!-- Left Side: Product Image -->
+                <div class="popup-image-section">
+                    <div class="popup-image-container">
+                        <img src="https://picsum.photos/seed/beauty500/600/700" alt="Beauty Products" class="popup-product-image">
+                        <div class="popup-image-overlay">
+                            <div class="popup-sparkle">✨</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Right Side: Offer Content -->
+                <div class="popup-offer-section">
+                    <div class="popup-offer-content">
+                        <h3 class="popup-offer-title">GET 5% OFF</h3>
+                        <p class="popup-offer-subtitle">your first order when you sign up for email</p>
+                        
+                        <form class="popup-form" id="popupForm">
+                            <div class="popup-input-group">
+                                <label for="popupEmail">Email</label>
+                                <input 
+                                    type="email" 
+                                    id="popupEmail" 
+                                    name="email" 
+                                    placeholder="Enter your email address" 
+                                    required
+                                    class="popup-email-input"
+                                >
+                            </div>
+                            
+                            <div class="popup-checkboxes">
+                                <label class="popup-checkbox-label">
+                                    <input type="checkbox" name="offers" required>
+                                    <span>I'd like to receive exclusive offers and SHEGLAM news by email. I understand I can contact SHEGLAM to unsubscribe at anytime.</span>
+                                </label>
+                                
+                                <label class="popup-checkbox-label">
+                                    <input type="checkbox" name="terms" required>
+                                    <span>I agree to the <a href="#" class="popup-link">Terms & Conditions</a> and acknowledge that I have read the <a href="#" class="popup-link">Privacy & Cookie Policy</a>.</span>
+                                </label>
+                            </div>
+                            
+                            <button type="submit" class="popup-submit-btn">Submit</button>
+                            <button type="button" class="popup-no-thanks" id="popupNoThanks">No, Thanks</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sticky Header -->
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">
+                <h1>SHEGLAM</h1>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Search products..." id="searchInput">
+                <button class="search-btn">🔍</button>
+            </div>
+            <div class="header-icons">
+                <button class="icon-btn" aria-label="Account">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                        <circle cx="12" cy="7" r="4"></circle>
+                    </svg>
+                </button>
+                <button class="icon-btn" aria-label="Cart">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="9" cy="21" r="1"></circle>
+                        <circle cx="20" cy="21" r="1"></circle>
+                        <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                    </svg>
+                    <span class="cart-count">0</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Collection Section 1: CATWOMAN -->
+        <section class="collection-section" data-theme="black">
+            <div class="promo-banner black-gradient">
+                <div class="banner-content">
+                    <h2>CATWOMAN | SHEGLAM Collection</h2>
+                    <p>Unleash your inner feline with this mysterious and powerful collection</p>
+                    <button class="banner-btn">Shop Now</button>
+                </div>
+            </div>
+            <div class="container">
+                <h3 class="section-title">CATWOMAN | SHEGLAM Collection</h3>
+                <div class="product-grid" id="collection-1"></div>
+            </div>
+        </section>
+
+        <!-- Collection Section 2: The Twilight Saga -->
+        <section class="collection-section" data-theme="purple">
+            <div class="promo-banner purple-gradient">
+                <div class="banner-content">
+                    <h2>The Twilight Saga X SHEGLAM</h2>
+                    <p>Embrace the mystical world of vampires and werewolves</p>
+                    <button class="banner-btn">Shop Now</button>
+                </div>
+            </div>
+            <div class="container">
+                <h3 class="section-title">The Twilight Saga X SHEGLAM</h3>
+                <div class="product-grid" id="collection-2"></div>
+            </div>
+        </section>
+
+        <!-- Collection Section 3: The Matrix -->
+        <section class="collection-section" data-theme="green">
+            <div class="promo-banner green-gradient">
+                <div class="banner-content">
+                    <h2>The Matrix Resurrections | SHEGLAM Collection</h2>
+                    <p>Choose the red pill and enter a world of futuristic beauty</p>
+                    <button class="banner-btn">Shop Now</button>
+                </div>
+            </div>
+            <div class="container">
+                <h3 class="section-title">The Matrix Resurrections | SHEGLAM Collection</h3>
+                <div class="product-grid" id="collection-3"></div>
+            </div>
+        </section>
+
+        <!-- Collection Section 4: Bubble Bath Dreams -->
+        <section class="collection-section" data-theme="pink">
+            <div class="promo-banner pink-gradient">
+                <div class="banner-content">
+                    <h2>Bubble Bath Dreams Collection</h2>
+                    <p>Soft and dreamy pastels for your self-care routine</p>
+                    <button class="banner-btn">Shop Now</button>
+                </div>
+            </div>
+            <div class="container">
+                <h3 class="section-title">Bubble Bath Dreams Collection</h3>
+                <div class="product-grid" id="collection-4"></div>
+            </div>
+        </section>
+
+        <!-- Collection Section 5: The Wizard of OZ -->
+        <section class="collection-section" data-theme="rainbow">
+            <div class="promo-banner rainbow-gradient">
+                <div class="banner-content">
+                    <h2>The Wizard of OZ™ | SHEGLAM Full Collection Set</h2>
+                    <p>Follow the yellow brick road to magical beauty</p>
+                    <button class="banner-btn">Shop Now</button>
+                </div>
+            </div>
+            <div class="container">
+                <h3 class="section-title">The Wizard of OZ™ | SHEGLAM Full Collection Set</h3>
+                <div class="product-grid" id="collection-5"></div>
+            </div>
+        </section>
+
+        <!-- Collection Section 6: Adventure Time -->
+        <section class="collection-section" data-theme="blue">
+            <div class="promo-banner blue-gradient">
+                <div class="banner-content">
+                    <h2>Adventure Time | SHEGLAM Collection</h2>
+                    <p>Mathematical! Explore the Land of Ooo with this vibrant collection</p>
+                    <button class="banner-btn">Shop Now</button>
+                </div>
+            </div>
+            <div class="container">
+                <h3 class="section-title">Adventure Time | SHEGLAM Collection</h3>
+                <div class="product-grid" id="collection-6"></div>
+            </div>
+        </section>
+
+        <!-- Collection Section 7: Hello Kitty -->
+        <section class="collection-section" data-theme="pink">
+            <div class="promo-banner pink-gradient">
+                <div class="banner-content">
+                    <h2>Hello Kitty｜SHEGLAM Full Collection</h2>
+                    <p>Cute and kawaii beauty with everyone's favorite feline</p>
+                    <button class="banner-btn">Shop Now</button>
+                </div>
+            </div>
+            <div class="container">
+                <h3 class="section-title">Hello Kitty｜SHEGLAM Full Collection</h3>
+                <div class="product-grid" id="collection-7"></div>
+            </div>
+        </section>
+
+        <!-- Collection Section 8: HARRY POTTER -->
+        <section class="collection-section" data-theme="purple">
+            <div class="promo-banner purple-gradient">
+                <div class="banner-content">
+                    <h2>HARRY POTTER | SHEGLAM 2.0</h2>
+                    <p>Experience the magic of Hogwarts with this enchanting collection</p>
+                    <button class="banner-btn">Shop Now</button>
+                </div>
+            </div>
+            <div class="container">
+                <h3 class="section-title">HARRY POTTER | SHEGLAM 2.0</h3>
+                <div class="product-grid" id="collection-8"></div>
+            </div>
+        </section>
+
+        <!-- Collection Section 9: HARLEY QUINN -->
+        <section class="collection-section" data-theme="red">
+            <div class="promo-banner red-gradient">
+                <div class="banner-content">
+                    <h2>HARLEY QUINN X SHEGLAM Crimson Butterfly Collection</h2>
+                    <p>Chaotic and colorful beauty inspired by the queen of crime</p>
+                    <button class="banner-btn">Shop Now</button>
+                </div>
+            </div>
+            <div class="container">
+                <h3 class="section-title">HARLEY QUINN X SHEGLAM Crimson Butterfly Collection</h3>
+                <div class="product-grid" id="collection-9"></div>
+            </div>
+        </section>
+
+        <!-- Collection Section 10: RICK AND MORTY -->
+        <section class="collection-section" data-theme="green">
+            <div class="promo-banner green-gradient">
+                <div class="banner-content">
+                    <h2>RICK AND MORTY X SHEGLAM</h2>
+                    <p>Wubba lubba dub dub! Interdimensional beauty awaits</p>
+                    <button class="banner-btn">Shop Now</button>
+                </div>
+            </div>
+            <div class="container">
+                <h3 class="section-title">RICK AND MORTY X SHEGLAM</h3>
+                <div class="product-grid" id="collection-10"></div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Quick View Modal -->
+    <div id="quickViewModal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <div class="modal-body" id="modalBody">
+                <!-- Modal content will be dynamically inserted here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>About Us</h4>
+                <ul>
+                    <li><a href="#">Our Story</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Press</a></li>
+                    <li><a href="#">Sustainability</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Customer Service</h4>
+                <ul>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Shipping Info</a></li>
+                    <li><a href="#">Returns & Exchanges</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Shop</h4>
+                <ul>
+                    <li><a href="#">New Arrivals</a></li>
+                    <li><a href="#">Best Sellers</a></li>
+                    <li><a href="#">Gift Sets</a></li>
+                    <li><a href="#">Sale</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Connect</h4>
+                <ul>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">TikTok</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 SHEGLAM. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
