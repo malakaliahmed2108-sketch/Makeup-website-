@@ -1,18 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>SHEGLAM | Sign In</title>
-
-  <!-- CSS -->
-  <link rel="stylesheet" href="sign in.css">
-  
-  <!-- Google Font -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SHEGLAM | Home</title>
+  <meta name="description" content="Makeup Glam - Beauty and skincare products website.">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-
-  <!-- Icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="home.css">
 </head>
 
 <body>
@@ -31,137 +26,98 @@
     <li><a href="contact.html">Contact</a></li>
   </ul>
 </nav>
-  <!-- Login Section -->
-  <div class="login-wrapper">
-    <div class="login-container">
 
-      <div class="login-header">
-        <h1>Welcome Back! 💕</h1>
-        <p>Sign in to continue your beauty journey</p>
-      </div>
 
-      <!-- Success/Error Messages -->
-      <div id="success-message" class="success-message"></div>
-      <div id="error-message" class="error-message"></div>
-
-      <!-- Tabs -->
-      <div class="tabs">
-        <div class="tab active" onclick="switchTab('signin')">Sign In</div>
-        <div class="tab" onclick="switchTab('signup')">Sign Up</div>
-      </div>
-
-      <!-- Sign In Form -->
-      <div id="signin-form" class="form-content active">
-
-        <form onsubmit="handleSignIn(event)">
-          <div class="form-group">
-            <label for="signin-email">Email Address</label>
-            <div class="input-wrapper">
-              <i class="fas fa-envelope"></i>
-              <input type="email" id="signin-email" placeholder="your@email.com" required>
-            </div>
-          </div>
-
-          <div class="form-group">
-            <label for="signin-password">Password</label>
-            <div class="input-wrapper">
-              <i class="fas fa-lock"></i>
-              <input type="password" id="signin-password" placeholder="Enter your password" required>
-              <i class="fas fa-eye password-toggle" onclick="togglePassword('signin-password')"></i>
-            </div>
-          </div>
-
-          <div class="forgot-password">
-            <a href="#" onclick="showForgotPassword(event)">Forgot Password?</a>
-          </div>
-
-          <button type="submit">Sign In ✨</button>
-        </form>
-
-        <div class="divider">
-          <span>or continue with</span>
-        </div>
-
-        <div class="social-login">
-          <button class="social-btn google" onclick="socialLogin('google')">
-            <i class="fab fa-google"></i>
-            <span>Google</span>
-          </button>
-
-          <button class="social-btn facebook" onclick="socialLogin('facebook')">
-            <i class="fab fa-facebook"></i>
-            <span>Facebook</span>
-          </button>
+  <!-- Slider Section -->
+  <div class="slider">
+    <div class="slides">
+      <div class="slide">
+        <img src="images/1757647142d6de4c26c6c4744fd13fbe5689d54503_thumbnail_3600x.jpeg" alt="Professional Makeup" onerror="this.src='https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=1200&h=500&fit=crop'">
+        <div class="slide-overlay">
+          <h3>Professional Makeup</h3>
+          <p>Discover the latest makeup trends</p>
         </div>
       </div>
 
-      <!-- Sign Up Form -->
-      <div class="form-content" id="signup-section">
-
-        <form id="signup-form" onsubmit="handleSignUp(event)">
-          <div class="form-group">
-            <label for="signup-name">Full Name</label>
-            <div class="input-wrapper">
-              <i class="fas fa-user"></i>
-              <input type="text" id="signup-name" placeholder="Your name" required>
-            </div>
-          </div>
-
-          <div class="form-group">
-            <label for="signup-email">Email Address</label>
-            <div class="input-wrapper">
-              <i class="fas fa-envelope"></i>
-              <input type="email" id="signup-email" placeholder="your@email.com" required>
-            </div>
-          </div>
-
-          <div class="form-group">
-            <label for="signup-password">Password</label>
-            <div class="input-wrapper">
-              <i class="fas fa-lock"></i>
-              <input type="password" id="signup-password" placeholder="Create a password" required minlength="6">
-              <i class="fas fa-eye password-toggle" onclick="togglePassword('signup-password')"></i>
-            </div>
-          </div>
-
-          <div class="form-group">
-            <label for="signup-confirm">Confirm Password</label>
-            <div class="input-wrapper">
-              <i class="fas fa-lock"></i>
-              <input type="password" id="signup-confirm" placeholder="Confirm your password" required minlength="6">
-              <i class="fas fa-eye password-toggle" onclick="togglePassword('signup-confirm')"></i>
-            </div>
-          </div>
-
-          <button type="submit">Create Account 💖</button>
-        </form>
-
-        <div class="divider">
-          <span>or sign up with</span>
+      <div class="slide">
+        <img src="images/175870488069c2e4b2679ebf30cae895e623b51a6d_thumbnail_3600x.webp" alt="Luxury Beauty Products" onerror="this.src='https://images.unsplash.com/photo-1596704017254-9b121068dc27?w=1200&h=500&fit=crop'">
+        <div class="slide-overlay">
+          <h3>Luxury Products</h3>
+          <p>High quality at amazing prices</p>
         </div>
-
-        <div class="social-login">
-          <button class="social-btn google" onclick="socialLogin('google')">
-            <i class="fab fa-google"></i>
-            <span>Google</span>
-          </button>
-
-          <button class="social-btn facebook" onclick="socialLogin('facebook')">
-            <i class="fab fa-facebook"></i>
-            <span>Facebook</span>
-          </button>
-        </div>
-
       </div>
 
-      <div class="footer-text">
-        By continuing, you agree to our <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>
+      <div class="slide">
+        <img src="images/1758704923b8211e29732ac2b95d11d3e1e1737655_thumbnail_3600x.jpeg" alt="Special Offers" onerror="this.src='https://images.unsplash.com/photo-1512496015851-a90fb38ba796?w=1200&h=500&fit=crop'">
+        <div class="slide-overlay">
+          <h3>Special Offers</h3>
+          <p>Discounts up to 50%</p>
+        </div>
+      </div>
+
+      <div class="slide">
+        <img src="images/17616319686475c9fd7ce5304cd5838b1caff12427_thumbnail_3600x.webp" alt="New Arrivals" onerror="this.src='https://images.unsplash.com/photo-1533561797500-4fcc1f6eaf52?w=1200&h=500&fit=crop'">
+        <div class="slide-overlay">
+          <h3>New Arrivals</h3>
+          <p>Latest international collections</p>
+        </div>
+      </div>
+
+      <div class="slide">
+        <img src="images/1762238567c4d56192ecc6fc057d596be669fb164d_thumbnail_3600x.webp" alt="Skincare" onerror="this.src='https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=1200&h=500&fit=crop'">
+        <div class="slide-overlay">
+          <h3>Skincare</h3>
+          <p>Natural and safe products</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="slider-dots">
+      <span class="dot active" onclick="goToSlide(0)"></span>
+      <span class="dot" onclick="goToSlide(1)"></span>
+      <span class="dot" onclick="goToSlide(2)"></span>
+      <span class="dot" onclick="goToSlide(3)"></span>
+      <span class="dot" onclick="goToSlide(4)"></span>
+    </div>
+  </div>
+
+  <!-- Products Section -->
+  <section id="products">
+    <h2>Latest Products 💄</h2>
+    <div class="products">
+
+      <div class="product">
+        <img src="https://images.unsplash.com/photo-1586495777744-4413f21062fa?w=400&h=300&fit=crop" alt="Glossy Lipstick">
+        <h3>Luxury Glossy Lipstick</h3>
+        <p>Price: $25</p>
+        <button class="shop-btn" onclick="window.location.href='products.html'">Shop Now</button>
+      </div>
+
+      <div class="product">
+        <img src="https://images.unsplash.com/photo-1631214524020-7e18db9a8f92?w=400&h=300&fit=crop" alt="Foundation">
+        <h3>Smooth & Light Foundation</h3>
+        <p>Price: $23</p>
+        <button class="shop-btn" onclick="window.location.href='products.html'">Shop Now</button>
+      </div>
+
+      <div class="product">
+        <img src="https://images.unsplash.com/photo-1583241800698-e8f637c7465c?w=400&h=300&fit=crop" alt="Eyeshadow Palette">
+        <h3>Elegant Eyeshadow Palette</h3>
+        <p>Price: $22</p>
+        <button class="shop-btn" onclick="window.location.href='products.html'">Shop Now</button>
+      </div>
+
+      <div class="product">
+        <img src="https://images.unsplash.com/photo-1541643600914-78b084683601?w=400&h=300&fit=crop" alt="Perfume">
+        <h3>Unique Signature Perfume</h3>
+        <p>Price: $32</p>
+        <button class="shop-btn" onclick="window.location.href='products.html'">Shop Now</button>
       </div>
 
     </div>
-  </div>
-  <!-- Footer -->
-    <!-- Enhanced Footer -->
+  </section>
+
+  <!-- Enhanced Footer -->
 <footer class="main-footer">
   <div class="footer-content">
     
@@ -180,7 +136,8 @@
       <ul>
         <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
         <li><a href="products.html"><i class="fas fa-shopping-bag"></i> Products</a></li>
-        <li><a href="about.html"><i class="fas fa-info-circle"></i> About Us</a></li>
+        <li><a href="#offers"><i class="fas fa-tag"></i> Offers</a></li>
+        <li><a href="#about"><i class="fas fa-info-circle"></i> About Us</a></li>
       </ul>
     </div>
 
@@ -236,7 +193,8 @@
   </div>
 </footer>
 
-  <script src="sign in.js"></script>
+
+  <script src="home.js"></script>
 
 </body>
 </html>
