@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SHEGLAM Mascara Product</title>
+  <link rel="stylesheet" href="css/product.css">
+</head>
+<body>
+  <header>
+    <h1>SHEGLAM</h1>
+  </header>
+
+  <main class="product-page">
+    <div class="product-gallery">
+      <div class="product-mascara"></div>
+      <img id="mainImage" src="images/mascara.jpg" alt="SHEGLAM All-In-One Mascara - Black">
+    </div>
+
+    <div class="product-info">
+      <h2>SHEGLAM All-In-One Mascara</h2>
+      <div class="rating" role="img" aria-label="4 out of 5 stars">
+        ⭐⭐⭐⭐☆ <span>(125 reviews)</span>
+      </div>
+
+      <p class="price">
+        <span class="old-price">$12.00</span>
+        <span class="new-price">$8.99</span>
+      </p>
+
+      <p class="desc">
+        Get bold, lifted lashes with Sheglam's All-in-One Mascara — volume, length, and curl without clumps!
+      </p>
+
+      <div class="colors">
+        <p>Choose Color:</p>
+        <div class="color-options" role="radiogroup" aria-label="Color selection">
+          <button class="color black active" 
+                  data-color="black active" 
+                  data-image="images/mascara black.jpg"
+                  aria-label="black active" 
+                  role="radio" 
+                  aria-checked="true"></button>
+          <button class="color brown" 
+                  data-color="brown" 
+                  data-image="images/mascara.brown.jpg"
+                  aria-label="brown shade" 
+                  role="radio" 
+                  aria-checked="true"></button>
+          <button class="color blue" 
+                  data-color="blue" 
+                  data-image="images/mascara.blue.jpg"
+                  aria-label="blue shade" 
+                  role="radio" 
+                  aria-checked="false"></button>
+        </div>
+        </div>
+        <div class="quantity">
+        <p>Quantity:</p>
+        <div class="quantity-box">
+          <button id="decreaseBtn" aria-label="Decrease quantity">−</button>
+          <input type="number" id="qty" value="1" min="1" max="99" aria-label="Product quantity">
+          <button id="increaseBtn" aria-label="Increase quantity">+</button>
+        </div>
+      </div>
+
+      <div class="buttons">
+        <button class="add-to-cart" id="addToCartBtn">🛒 Add to Cart</button>
+        <button class="buy-now" id="buyNowBtn">💖 Buy Now</button>
+      </div>
+    </div>
+  </main>
+
+  <section class="reviews">
+    <h3>Customer Reviews</h3>
+    <div class="review">
+      <div class="name">Sara M.</div>
+      <div class="stars">★★★★★</div>
+      <p>Absolutely love this mascara! It gives my lashes a natural lift and lasts all day. 💖</p>
+    </div>
+    <div class="review">
+      <div class="name">Nour M.</div>
+      <div class="stars">★★★★☆</div>
+      <p>Great product but wish it came in more shades! Still super good for the price.</p>
+    </div>
+    <div class="review">
+      <div class="name">Lina R.</div>
+      <div class="stars">★★★★★</div>
+      <p>This mascara became my go-to! Waterproof and doesn't smudge even after hours. 👌</p>
+    </div>
+
+    <div class="more">
+      <h3>More to Love 💕</h3>
+      <div class="more-items">
+        <a href="product.blush.html" class="more-card">
+          <img src="images/blush heart.jpg" alt="Sheglam Soft Glow Blush">
+          <p>Sheglam Blush - $8.00</p>
+        </a>
+        <a href="product-lip.html" class="more-card">
+          <img src="images/16298001091e62d86b89328f3add1fc986f2633308_wk_sheglam loco for coco.jpg" alt="Sheglam Lip Gloss">
+          <p>Sheglam Lip Gloss - $6.50</p>
+        </a>
+        <a href="product-foundation.html" class="more-card">
+          <img src="images/foundation heart.jpg" alt="Sheglam Foundation">
+          <p>Sheglam Foundation - $10.99</p>
+        </a>
+        <a href="product.eyeliner.html" class="more-card">
+          <img src="images/linear heart.jpg" alt="Sheglam eyeliner">
+          <p>Sheglam Eyeliner - $5.99</p>
+        </a>
+        <a href="product.Eyeshadow.html" class="more-card">
+          <img src="images/eyes.jpg" alt="Sheglam Eyeshadow">
+          <p>Sheglam eyeshadow- $12.99</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 SHEGLAM Beauty | All Rights Reserved</p>
+  </footer>
+<script src="product.js"></script>
+  
+</body>
+</html>

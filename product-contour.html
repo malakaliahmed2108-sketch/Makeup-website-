@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SHEGLAM Contour</title>
+  <link rel="stylesheet" href="css/product.css">
+</head>
+<body>
+  <header>
+    <h1>SHEGLAM</h1>
+  </header>
+
+  <main class="product-page">
+    <div class="product-gallery">
+      <div class="product-contour"></div>
+      <img id="mainImage" src="images/contour heart.jpg" alt="SHEGLAM Contour">
+    </div>
+
+    <div class="product-info">
+      <h2>SHEGLAM Sculpt & Define Contour</h2>
+      <div class="rating" role="img" aria-label="5 out of 5 stars">
+        ⭐⭐⭐⭐⭐ <span>(3,245 reviews)</span>
+      </div>
+
+      <p class="price">
+        <span class="old-price">$15.99</span>
+        <span class="new-price">$10.99</span>
+      </p>
+
+      <p class="desc">
+        Sculpt and define your features with our Sculpt & Define Contour! This creamy, blendable formula creates natural-looking shadows and dimension while being easy to apply and build. Achieve that chiseled, Instagram-worthy look effortlessly! ✨
+      </p>
+
+      <div class="colors">
+        <p>Choose Shade:</p>
+        <div class="color-options" role="radiogroup" aria-label="Shade selection">
+          <button class="color light" 
+                  data-color="light" 
+                  data-image="images/contour1.jpg"
+                  aria-label="light" 
+                  role="radio" 
+                  aria-checked="true"></button>
+          <button class="color medium" 
+                  data-color="medium" 
+                  data-image="images/contour 2.jpg"
+                  aria-label="medium" 
+                  role="radio" 
+                  aria-checked="false"></button>
+          <button class="color deep" 
+                  data-color="deep" 
+                  data-image="images/contour 333.jpg"
+                  aria-label="deep" 
+                  role="radio" 
+                  aria-checked="false"></button>
+        </div>
+      </div>
+
+      <div class="quantity">
+        <p>Quantity:</p>
+        <div class="quantity-box">
+          <button id="decreaseBtn" aria-label="Decrease quantity">−</button>
+          <input type="number" id="qty" value="1" min="1" max="99" aria-label="Product quantity">
+          <button id="increaseBtn" aria-label="Increase quantity">+</button>
+        </div>
+      </div>
+
+      <div class="buttons">
+        <button class="add-to-cart" id="addToCartBtn">🛒 Add to Cart</button>
+        <button class="buy-now" id="buyNowBtn">💖 Buy Now</button>
+      </div>
+    </div>
+  </main>
+
+  <section class="reviews">
+    <h3>Customer Reviews</h3>
+    <div class="review">
+      <div class="name">Madison V.</div>
+      <div class="stars">★★★★★</div>
+      <p>This contour is PERFECT! The Light shade is amazing for my skin tone. Blends like a dream! 😍</p>
+    </div>
+    <div class="review">
+      <div class="name">Aurora S.</div>
+      <div class="stars">★★★★★</div>
+      <p>Best contour ever! Medium shade is ideal for me. So easy to blend and looks so natural!</p>
+    </div>
+    <div class="review">
+      <div class="name">Willow T.</div>
+      <div class="stars">★★★★☆</div>
+      <p>Love the Deep shade! Great pigmentation and long-lasting. Wish it came with a brush though.</p>
+    </div>
+
+    <div class="more">
+      <h3>More to Love 💕</h3>
+      <div class="more-items">
+        <a href="product.blush.html" class="more-card">
+          <img src="images/blush heart.jpg" alt="Sheglam Soft Glow Blush">
+          <p>Sheglam Blush - $8.00</p>
+        </a>
+        <a href="product-lip.html" class="more-card">
+          <img src="images/16298001091e62d86b89328f3add1fc986f2633308_wk_sheglam loco for coco.jpg" alt="Sheglam Lip Gloss">
+          <p>Sheglam Lip Gloss - $6.50</p>
+        </a>
+        <a href="product-foundation.html" class="more-card">
+          <img src="images/foundation heart.jpg" alt="Sheglam Foundation">
+          <p>Sheglam Foundation - $10.99</p>
+        </a>
+        <a href="product.eyeliner.html" class="more-card">
+          <img src="images/linear heart.jpg" alt="Sheglam eyeliner">
+          <p>Sheglam Eyeliner - $5.99</p>
+        </a>
+        <a href="product.Eyeshadow.html" class="more-card">
+          <img src="images/eyes.jpg" alt="Sheglam Eyeshadow">
+          <p>Sheglam eyeshadow- $12.99</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 SHEGLAM Beauty | All Rights Reserved</p>
+  </footer>
+  <script src="product.js"></script>
+</body>
+</html>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SHEGLAM Setting Powder</title>
+  <link rel="stylesheet" href="css/product.css">
+</head>
+<body>
+  <header>
+    <h1>SHEGLAM</h1>
+  </header>
+  <main class="product-page">
+    <div class="product-gallery">
+      <div class="product-setting powder"></div>
+      <img id="mainImage" src="images/setting powder heart.jpg" alt="SHEGLAM Soft Blur Setting Powder - Fair">
+    </div>
+
+    <div class="product-info">
+      <h2>SHEGLAM Soft Blur Setting Powder</h2>
+      <div class="rating" role="img" aria-label="5 out of 5 stars">
+        ⭐⭐⭐⭐⭐ <span>(2,156 reviews)</span>
+      </div>
+
+      <p class="price">
+        <span class="old-price">$9.99</span>
+        <span class="new-price">$7.99</span>
+      </p>
+
+      <p class="desc">
+        Lock in your flawless look with our Soft Blur Setting Powder! This ultra-fine, lightweight formula sets makeup for all-day wear while blurring imperfections and controlling shine. Achieve that airbrushed, photo-ready finish without any cakey texture! ✨
+      </p>
+
+      <div class="shade-info" id="shadeInfo" style="display: none;">
+        <p><strong>Shade:</strong> <span id="shadeName"></span></p>
+        <p><strong>Best For:</strong> <span id="shadeBestFor"></span></p>
+      </div>
+
+      <div class="colors">
+        <p>Choose Your Shade:</p>
+        <div class="color-options" role="radiogroup" aria-label="Shade selection">
+          <button class="color fair" 
+                  data-color="fair" 
+                  data-image="images/fair podow.jpg"
+                  aria-label="fair" 
+                  role="radio" 
+                  aria-checked="true"></button>
+          <button class="color light" 
+                  data-color="light" 
+                  data-image="images/p2.jpg"
+                  aria-label="light" 
+                  role="radio" 
+                  aria-checked="false"></button>
+          <button class="color medium" 
+                  data-color="medium" 
+                  data-image="images/p3.jpg"
+                  aria-label="medium" 
+                  role="radio" 
+                  aria-checked="false"></button>
+                  <button class="color deep" 
+                  data-color="deep" 
+                  data-image="images/p4.jpg"
+                  aria-label="deep" 
+                  role="radio" 
+                  aria-checked="false"></button>
+        </div>
+      </div>
+
+      <div class="quantity">
+        <p>Quantity:</p>
+        <div class="quantity-box">
+          <button id="decreaseBtn" aria-label="Decrease quantity">−</button>
+          <input type="number" id="qty" value="1" min="1" max="99" aria-label="Product quantity">
+          <button id="increaseBtn" aria-label="Increase quantity">+</button>
+        </div>
+      </div>
+
+      <div class="buttons">
+        <button class="add-to-cart" id="addToCartBtn">🛒 Add to Cart</button>
+        <button class="buy-now" id="buyNowBtn">💖 Buy Now</button>
+      </div>
+    </div>
+  </main>
+
+  <section class="reviews">
+    <h3>Customer Reviews</h3>
+    <div class="review">
+      <div class="name">Emma R.</div>
+      <div class="stars">★★★★★</div>
+      <p>This powder is incredible! It keeps my makeup looking fresh all day without looking cakey. The Fair shade is perfect for my skin tone! 😍</p>
+    </div>
+    <div class="review">
+      <div class="name">Nour H.</div>
+      <div class="stars">★★★★★</div>
+      <p>Best setting powder ever! So finely milled and doesn't flashback in photos. I use it every single day!</p>
+    </div>
+    <div class="review">
+      <div class="name">Aisha M.</div>
+      <div class="stars">★★★★☆</div>
+      <p>Love how lightweight this powder is! The Medium shade is great for my complexion. Wish it came in a larger size though.</p>
+    </div>
+
+    <div class="more">
+      <h3>Complete Your Look 💄</h3>
+      <div class="more-items">
+        <a href="product-foundation.html" class="more-card">
+          <img src="images/foundation heart.jpg" alt="SHEGLAM Foundation">
+          <p>SHEGLAM Foundation - $10.99</p>
+        </a>
+        <a href="product-concealer.html" class="more-card">
+          <img src="images/concealer heart.jpg" alt="SHEGLAM Concealer">
+          <p>SHEGLAM Concealer - $10.99</p>
+        </a>
+        <a href="product.blush.html" class="more-card">
+          <img src="images/blush heart.jpg" alt="SHEGLAM Blush">
+          <p>SHEGLAM Blush - $8.00</p>
+        </a>
+         <a href="product eye brush.html" class="more-card">
+        <img src="images/eye brush heart.jpg" alt="eye brush">
+        <p>SHEGLAM eye brush-  $9.00</p>
+        </a>
+        <a href="product -lip tint.html" class="more-card">
+        <img src="images/lip tint heart.jpg" alt="SHEGLAM Lip tint">
+        <p>SHEGLAM LipTint - $10.99</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 SHEGLAM Beauty | All Rights Reserved</p>
+  </footer>
+ <script src="product.js"></script>
+</body>
+</html>
