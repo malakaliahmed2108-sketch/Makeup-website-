@@ -6,32 +6,33 @@
   <title>SHEGLAM | Home</title>
   <meta name="description" content="Makeup Glam - Beauty and skincare products website.">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-
-  <!-- CSS FILE -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link rel="stylesheet" href="home.css">
 </head>
 
 <body>
 
+  <!-- Navbar -->
   <nav>
-    <div class="logo">
-      <img src="https://via.placeholder.com/45/ffb6c1/ffffff?text=MG" alt="Logo">
-      <span>SHEGLAM</span>
-    </div>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="products.html">Products</a></li>
-      <li><a href="offers.html">Offers</a></li>
-      <li><a href="about.html">About Us</a></li>
-      <li><a href="sign in.html">Sign in</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-  </nav>
+  <div class="logo">
+    <span>SHEGLAM</span>
+  </div>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="products.html">Products</a></li>
+    <li><a href="#offers">Offers</a></li>
+    <li><a href="#about">About Us</a></li>
+    <li><a href="login.html">Login</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
 
+
+  <!-- Slider Section -->
   <div class="slider">
     <div class="slides">
       <div class="slide">
-        <img src="images/1757647142d6de4c26c6c4744fd13fbe5689d54503_thumbnail_3600x.jpeg" alt="Professional Makeup">
+        <img src="images/1757647142d6de4c26c6c4744fd13fbe5689d54503_thumbnail_3600x.jpeg" alt="Professional Makeup" onerror="this.src='https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=1200&h=500&fit=crop'">
         <div class="slide-overlay">
           <h3>Professional Makeup</h3>
           <p>Discover the latest makeup trends</p>
@@ -39,7 +40,7 @@
       </div>
 
       <div class="slide">
-        <img src="images/175870488069c2e4b2679ebf30cae895e623b51a6d_thumbnail_3600x.webp" alt="Luxury Beauty Products">
+        <img src="images/175870488069c2e4b2679ebf30cae895e623b51a6d_thumbnail_3600x.webp" alt="Luxury Beauty Products" onerror="this.src='https://images.unsplash.com/photo-1596704017254-9b121068dc27?w=1200&h=500&fit=crop'">
         <div class="slide-overlay">
           <h3>Luxury Products</h3>
           <p>High quality at amazing prices</p>
@@ -47,7 +48,7 @@
       </div>
 
       <div class="slide">
-        <img src="images/1758704923b8211e29732ac2b95d11d3e1e1737655_thumbnail_3600x.jpeg" alt="Special Offers">
+        <img src="images/1758704923b8211e29732ac2b95d11d3e1e1737655_thumbnail_3600x.jpeg" alt="Special Offers" onerror="this.src='https://images.unsplash.com/photo-1512496015851-a90fb38ba796?w=1200&h=500&fit=crop'">
         <div class="slide-overlay">
           <h3>Special Offers</h3>
           <p>Discounts up to 50%</p>
@@ -55,7 +56,7 @@
       </div>
 
       <div class="slide">
-        <img src="images/17616319686475c9fd7ce5304cd5838b1caff12427_thumbnail_3600x.webp" alt="New Arrivals">
+        <img src="images/17616319686475c9fd7ce5304cd5838b1caff12427_thumbnail_3600x.webp" alt="New Arrivals" onerror="this.src='https://images.unsplash.com/photo-1533561797500-4fcc1f6eaf52?w=1200&h=500&fit=crop'">
         <div class="slide-overlay">
           <h3>New Arrivals</h3>
           <p>Latest international collections</p>
@@ -63,7 +64,7 @@
       </div>
 
       <div class="slide">
-        <img src="images/1762238567c4d56192ecc6fc057d596be669fb164d_thumbnail_3600x.webp" alt="Skincare">
+        <img src="images/1762238567c4d56192ecc6fc057d596be669fb164d_thumbnail_3600x.webp" alt="Skincare" onerror="this.src='https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=1200&h=500&fit=crop'">
         <div class="slide-overlay">
           <h3>Skincare</h3>
           <p>Natural and safe products</p>
@@ -80,6 +81,7 @@
     </div>
   </div>
 
+  <!-- Products Section -->
   <section id="products">
     <h2>Latest Products 💄</h2>
     <div class="products">
@@ -88,39 +90,110 @@
         <img src="https://images.unsplash.com/photo-1586495777744-4413f21062fa?w=400&h=300&fit=crop" alt="Glossy Lipstick">
         <h3>Luxury Glossy Lipstick</h3>
         <p>Price: $25</p>
+        <button class="shop-btn" onclick="window.location.href='products.html'">Shop Now</button>
       </div>
 
       <div class="product">
         <img src="https://images.unsplash.com/photo-1631214524020-7e18db9a8f92?w=400&h=300&fit=crop" alt="Foundation">
         <h3>Smooth & Light Foundation</h3>
         <p>Price: $23</p>
+        <button class="shop-btn" onclick="window.location.href='products.html'">Shop Now</button>
       </div>
 
       <div class="product">
         <img src="https://images.unsplash.com/photo-1583241800698-e8f637c7465c?w=400&h=300&fit=crop" alt="Eyeshadow Palette">
         <h3>Elegant Eyeshadow Palette</h3>
         <p>Price: $22</p>
+        <button class="shop-btn" onclick="window.location.href='products.html'">Shop Now</button>
       </div>
 
       <div class="product">
         <img src="https://images.unsplash.com/photo-1541643600914-78b084683601?w=400&h=300&fit=crop" alt="Perfume">
         <h3>Unique Signature Perfume</h3>
         <p>Price: $32</p>
+        <button class="shop-btn" onclick="window.location.href='products.html'">Shop Now</button>
       </div>
 
     </div>
   </section>
 
-  <footer>
-    <p>© 2025 Makeup Glam. All rights reserved.</p>
-    <div class="social">
-      <a href="https://www.instagram.com/makeup.by.ayat/" target="_blank">📸 Follow us on Instagram</a>
-      <a href="https://www.facebook.com/makeup.by.ayat" target="_blank">💖 Visit us on Facebook</a>
-      <a href="https://www.tiktok.com/@makeup.by.ayat" target="_blank">💄 Follow us on TikTok</a>
+  <!-- Enhanced Footer -->
+<footer class="main-footer">
+  <div class="footer-content">
+    
+    <!-- About Section -->
+    <div class="footer-section">
+      <h3>About SHEGLAM</h3>
+      <p>Your destination for premium beauty products. We bring you the finest cosmetics and skincare from around the world.</p>
+      <div class="footer-logo">
+        <span>SHEGLAM</span>
+      </div>
     </div>
-  </footer>
 
-  <!-- JAVASCRIPT FILE -->
+    <!-- Quick Links -->
+    <div class="footer-section">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+        <li><a href="products.html"><i class="fas fa-shopping-bag"></i> Products</a></li>
+        <li><a href="#offers"><i class="fas fa-tag"></i> Offers</a></li>
+        <li><a href="#about"><i class="fas fa-info-circle"></i> About Us</a></li>
+      </ul>
+    </div>
+
+    <!-- Customer Service -->
+    <div class="footer-section">
+      <h3>Customer Service</h3>
+      <ul>
+        <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact Us</a></li>
+        <li><a href="#"><i class="fas fa-truck"></i> Shipping Info</a></li>
+        <li><a href="#"><i class="fas fa-undo"></i> Returns</a></li>
+        <li><a href="#"><i class="fas fa-question-circle"></i> FAQ</a></li>
+      </ul>
+    </div>
+
+    <!-- Social Media -->
+    <div class="footer-section">
+      <h3>Follow Us</h3>
+      <p>Stay connected for the latest updates and offers!</p>
+      <div class="social-icons">
+        <a href="https://www.instagram.com/sheglam_official?utm_source=ig_web_button_share_sheet&igsh=ODdmZWVhMTFiMw==" target="_blank" title="Instagram">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.facebook.com/SHEGLAMOFFICIAL" target="_blank" title="Facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+        <a href="https://www.tiktok.com/@sheglam?_r=1&_t=ZS-91gCkkEQmtb" target="_blank" title="TikTok">
+          <i class="fab fa-tiktok"></i>
+        </a>
+        <a href="https://x.com/sheglamofficial" target="_blank" title="Twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </div>
+
+      <div class="newsletter">
+        <h4>Newsletter</h4>
+        <div class="newsletter-form">
+          <input type="email" placeholder="Your email...">
+          <button><i class="fas fa-paper-plane"></i></button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer Bottom -->
+  <div class="footer-bottom">
+    <p>© 2025 SHEGLAM. All rights reserved. Made with <i class="fas fa-heart"></i> in Egypt</p>
+    <div class="payment-methods">
+      <i class="fab fa-cc-visa"></i>
+      <i class="fab fa-cc-mastercard"></i>
+      <i class="fab fa-cc-paypal"></i>
+      <i class="fab fa-cc-amex"></i>
+    </div>
+  </div>
+</footer>
+
+
   <script src="home.js"></script>
 
 </body>
