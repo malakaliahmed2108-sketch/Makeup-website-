@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHEGLAM | Product Detail</title>
+    <link rel="stylesheet" href="product.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-inner">
+            <a class="logo" href="index.html">SHEGLAM</a>
+            <nav class="breadcrumbs" id="breadcrumbTrail">
+                <a href="index.html">Home</a>
+                <span aria-hidden="true">›</span>
+                <a href="#" id="breadcrumbCollection">Collection</a>
+                <span aria-hidden="true">›</span>
+                <span id="breadcrumbProduct">Product</span>
+            </nav>
+            <div class="header-actions">
+                <button class="icon-btn" aria-label="Search">🔍</button>
+                <button class="icon-btn" aria-label="Account">👤</button>
+                <button class="icon-btn" aria-label="Cart">🛒</button>
+            </div>
+        </div>
+    </header>
+
+    <main class="product-page" id="productPage">
+        <section class="product-hero">
+            <div class="product-gallery">
+                <div class="thumbnail-rail" id="thumbnailRail"></div>
+                <div class="main-image-frame">
+                    <img id="mainProductImage" alt="Selected product image">
+                </div>
+            </div>
+
+            <div class="product-info" id="productInfo">
+                <div class="product-meta">
+                    <p class="collection-pill" id="collectionPill">Collection</p>
+                    <h1 id="productName">Product</h1>
+                    <div class="rating-row">
+                        <div id="ratingStars" class="stars">★★★★★</div>
+                        <span id="ratingValue">0.0</span>
+                        <span id="reviewCount">(0 reviews)</span>
+                    </div>
+                    <div class="price-row">
+                        <span id="productPrice">$0.00</span>
+                    </div>
+                </div>
+
+                <div class="option-group">
+                    <label for="colorOptions">Color</label>
+                    <div class="color-selector" id="colorOptions"></div>
+                </div>
+
+                <div class="option-group">
+                    <label for="sizeOptions">Size</label>
+                    <div class="size-selector" id="sizeOptions"></div>
+                </div>
+
+                <div class="quantity-bar">
+                    <button class="qty-btn" data-action="decrease" aria-label="Decrease quantity">−</button>
+                    <input type="number" id="quantityInput" min="1" value="1">
+                    <button class="qty-btn" data-action="increase" aria-label="Increase quantity">+</button>
+                </div>
+
+                <button class="primary-btn" id="addToCartBtn">Add to Cart</button>
+                <p class="product-description" id="productDescription"></p>
+
+                <div class="badge-row" id="badgeRow"></div>
+
+                <div class="attribute-grid" id="attributeGrid"></div>
+            </div>
+        </section>
+
+        <section class="panels">
+            <button class="panel-toggle" data-panel="ingredients">
+                <span>Ingredients</span>
+                <span class="chevron">⌄</span>
+            </button>
+            <div class="panel-content" id="ingredientsPanel"></div>
+
+            <button class="panel-toggle" data-panel="shipping">
+                <span>Shipping Info</span>
+                <span class="chevron">⌄</span>
+            </button>
+            <div class="panel-content" id="shippingPanel"></div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-columns">
+            <div>
+                <h4>Glam With Us</h4>
+                <p>Subscribe for exclusive drops and early access.</p>
+                <div class="subscribe-form">
+                    <input type="email" placeholder="Email address">
+                    <button>Submit</button>
+                </div>
+            </div>
+            <div>
+                <h4>Shop</h4>
+                <ul>
+                    <li><a href="#">Best Sellers</a></li>
+                    <li><a href="#">Eyes</a></li>
+                    <li><a href="#">Lips</a></li>
+                    <li><a href="#">Tools & Brushes</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Help</h4>
+                <ul>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Shipping</a></li>
+                    <li><a href="#">Returns</a></li>
+                    <li><a href="#">Accessibility</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Privacy & Terms</h4>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Cookie Policy</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2024 SHEGLAM. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+    <script src="product.js"></script>
+</body>
+</html>
+
