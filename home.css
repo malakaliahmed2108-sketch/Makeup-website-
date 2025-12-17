@@ -18,7 +18,7 @@
 }
 
 body {
-  background-color: var(--bg);
+  background: linear-gradient(135deg, #ffe6f5 100%);
   color: var(--text);
   font-family: 'Poppins', sans-serif;
 }
