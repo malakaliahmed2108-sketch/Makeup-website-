@@ -118,6 +118,75 @@ body {
     justify-content: center;
     font-weight: bold;
 }
+/* ============================================
+   LEFT NAVBAR – FIXED PROPERLY
+   ============================================ */
+
+.navbar {
+    background: linear-gradient(135deg, #faf5ff 0%, #fdf2f8 100%);
+    border-bottom: 1px solid #f3e8ff;
+
+    /* المهم */
+    display: flex;
+    justify-content: flex-start;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+
+    /* ❌ شيلنا centering */
+   margin: 1rem 2rem 1rem auto;
+    padding: 0.75rem 2rem;
+
+    background: linear-gradient(
+        135deg,
+        #ede9fe 0%,
+        #f3e8ff 50%,
+        #fce7f3 100%
+    );
+    border-radius: 16px;
+    box-shadow: 0 6px 18px rgba(217, 70, 239, 0.15);
+}
+
+.nav-links li {
+    position: relative;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #374151;
+    padding: 0.5rem 0;
+    transition: color 0.3s ease;
+}
+
+/* Hover */
+.nav-links a:hover {
+    color: #d946ef;
+}
+
+/* Underline animation */
+.nav-links a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 0%;
+    height: 2px;
+    background: linear-gradient(135deg, #d946ef, #ec4899);
+    transition: width 0.3s ease;
+}
+
+.nav-links a:hover::after {
+    width: 100%;
+}
+
+
+
 
 /* ============================================
    MAIN CONTENT
@@ -606,7 +675,22 @@ body {
     .container {
         padding: 0 1rem;
     }
+
+    .nav-links {
+        flex-wrap: wrap;
+        gap: 1.2rem;
+        padding: 1rem;
+    }
+
+    .nav-links {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1.2rem;
+        padding: 1rem 1.5rem;
+    }
 }
+    
+
 
 @media (max-width: 480px) {
     .product-grid {
